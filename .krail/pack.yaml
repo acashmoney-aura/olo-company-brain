@@ -1,0 +1,24 @@
+id: company-brain
+name: Company Brain
+entities:
+- Person
+- Team
+- Role
+- System
+- Workflow
+- Policy
+- Dataset
+- Metric
+- Permission
+- Claim
+link_types:
+- Person BELONGS_TO Team
+- Team OWNS System
+- Workflow USES System
+- Policy GOVERNS Workflow
+- System STORES Dataset
+workflows:
+- initial_company_map
+- daily_refresh
+- weekly_exec_brief
+- stale_doc_review

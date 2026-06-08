@@ -1,0 +1,75 @@
+documents:
+  - path: topics/brief.md
+    depends_on:
+      - id: olo-homepage
+        type: url
+        url: https://www.olo.com/
+        role: company_overview
+        refresh: manual
+      - id: thoma-bravo-acquisition
+        type: url
+        url: https://www.thomabravo.com/press-releases/olo-enters-into-definitive-agreement-to-be-acquired-by-thoma-bravo
+        role: transaction_fact
+        refresh: manual
+      - id: olo-acquisition-complete
+        type: url
+        url: https://www.olo.com/thoma-bravo-completes-acquisition-of-olo
+        role: post_close_confirmation
+        refresh: manual
+  - path: topics/business/overview.md
+    depends_on:
+      - id: olo-homepage
+        type: url
+        url: https://www.olo.com/
+        role: company_overview
+        refresh: manual
+      - id: olo-enterprise-brands
+        type: url
+        url: https://www.olo.com/restaurants/enterprise-brands
+        role: customer_segment
+        refresh: manual
+  - path: topics/business/business-model.md
+    depends_on:
+      - id: olo-pay
+        type: url
+        url: https://www.olo.com/pay
+        role: payments_positioning
+        refresh: manual
+      - id: thoma-bravo-acquisition
+        type: url
+        url: https://www.thomabravo.com/press-releases/olo-enters-into-definitive-agreement-to-be-acquired-by-thoma-bravo
+        role: scale_claim
+        refresh: manual
+  - path: topics/products/ordering.md
+    depends_on:
+      - id: olo-ordering
+        type: url
+        url: https://www.olo.com/ordering
+        role: product_page
+        refresh: manual
+  - path: topics/products/payments.md
+    depends_on:
+      - id: olo-pay
+        type: url
+        url: https://www.olo.com/pay
+        role: product_page
+        refresh: manual
+  - path: topics/products/dispatch.md
+    depends_on:
+      - id: olo-dispatch
+        type: url
+        url: https://www.olo.com/dispatch
+        role: product_page
+        refresh: manual
+  - path: topics/products/engage.md
+    depends_on:
+      - id: olo-engage
+        type: url
+        url: https://www.olo.com/engage
+        role: product_page
+        refresh: manual
+      - id: olo-marketing-guide
+        type: url
+        url: https://www.olo.com/restaurant-marketing-guide
+        role: supporting_material
+        refresh: manual

@@ -1,0 +1,3258 @@
+{
+  "mode": "markdown_frontmatter",
+  "generatedAt": "2026-06-08T00:03:39.430598+00:00",
+  "config": {
+    "include": [
+      "topics/**/*.md",
+      "research_plan/**/*.md"
+    ],
+    "exclude": [
+      ".git/**",
+      ".krail/**",
+      ".rail/**",
+      ".ontology/**",
+      ".venv/**",
+      "node_modules/**",
+      "research_plan/graph/*.md",
+      "docs/data/*.md"
+    ],
+    "jsonPath": "research_plan/graph/graph.json",
+    "mermaidPath": "research_plan/graph/graph.mmd",
+    "summaryPath": "research_plan/graph/summary.md"
+  },
+  "counts": {
+    "documents": 21,
+    "nodes": 143,
+    "edges": 249
+  },
+  "nodeTypeCounts": {
+    "document": 21,
+    "entity": 71,
+    "source": 18,
+    "topic": 33
+  },
+  "entityTypeCounts": {
+    "BusinessOutcome": 2,
+    "BuyerPersona": 1,
+    "Capability": 3,
+    "ClaimGroup": 3,
+    "Company": 1,
+    "Competitor": 8,
+    "CustomerSegment": 3,
+    "DataAsset": 1,
+    "Dependency": 5,
+    "EndUser": 1,
+    "Event": 3,
+    "Executive": 1,
+    "Investor": 1,
+    "MarketTrend": 1,
+    "Metric": 2,
+    "OwnershipContext": 1,
+    "Package": 1,
+    "PackageComponent": 1,
+    "PartnerType": 1,
+    "Product": 5,
+    "ProductCategory": 6,
+    "QualityCheck": 1,
+    "RevenueStream": 3,
+    "Risk": 5,
+    "Source": 7,
+    "SystemDesign": 1,
+    "UserPersona": 1,
+    "WorkflowStep": 2
+  },
+  "documents": [
+    {
+      "id": "doc:research_plan/current_plan.md",
+      "path": "research_plan/current_plan.md",
+      "title": "Current Plan",
+      "kind": "plan",
+      "topics": [
+        "planning",
+        "company-brain"
+      ],
+      "entities": [
+        "Olo",
+        "company brain"
+      ],
+      "sources": [],
+      "relations": 1,
+      "updated": null
+    },
+    {
+      "id": "doc:research_plan/source_registry.md",
+      "path": "research_plan/source_registry.md",
+      "title": "Source Registry",
+      "kind": "registry",
+      "topics": [
+        "sources",
+        "company-brain"
+      ],
+      "entities": [
+        "Olo Dispatch page",
+        "Olo Engage page",
+        "Olo Pay page",
+        "Olo acquisition completion announcement",
+        "Olo homepage",
+        "Olo ordering page",
+        "Thoma Bravo acquisition announcement"
+      ],
+      "sources": [],
+      "relations": 0,
+      "updated": null
+    },
+    {
+      "id": "doc:topics/brief.md",
+      "path": "topics/brief.md",
+      "title": "Olo Company Brain Brief",
+      "kind": "brief",
+      "topics": [
+        "company-brain",
+        "restaurant-technology",
+        "vertical-saas"
+      ],
+      "entities": [
+        "Noah Glass",
+        "Olo",
+        "Olo Dispatch",
+        "Olo Engage",
+        "Olo Pay",
+        "Thoma Bravo",
+        "digital ordering",
+        "restaurant brands"
+      ],
+      "sources": [
+        "https://www.olo.com/",
+        "https://www.olo.com/thoma-bravo-completes-acquisition-of-olo",
+        "https://www.thomabravo.com/press-releases/olo-enters-into-definitive-agreement-to-be-acquired-by-thoma-bravo"
+      ],
+      "relations": 6,
+      "updated": null
+    },
+    {
+      "id": "doc:topics/business/business-model.md",
+      "path": "topics/business/business-model.md",
+      "title": "Olo business model",
+      "kind": "synthesis-note",
+      "topics": [
+        "business-model",
+        "revenue-model",
+        "payments"
+      ],
+      "entities": [
+        "Olo",
+        "Olo Pay",
+        "payment revenue",
+        "restaurant digital order volume",
+        "subscription revenue",
+        "transaction-linked revenue"
+      ],
+      "sources": [
+        "https://www.olo.com/pay",
+        "https://www.olo.com/thoma-bravo-completes-acquisition-of-olo",
+        "https://www.thomabravo.com/press-releases/olo-enters-into-definitive-agreement-to-be-acquired-by-thoma-bravo"
+      ],
+      "relations": 4,
+      "updated": "2026-06-07"
+    },
+    {
+      "id": "doc:topics/business/overview.md",
+      "path": "topics/business/overview.md",
+      "title": "Olo business overview",
+      "kind": "synthesis-note",
+      "topics": [
+        "business-overview",
+        "vertical-saas",
+        "restaurant-tech"
+      ],
+      "entities": [
+        "Olo",
+        "digital ordering",
+        "guest engagement",
+        "open SaaS platform",
+        "payments",
+        "restaurant brands",
+        "restaurant guests"
+      ],
+      "sources": [
+        "https://www.olo.com/",
+        "https://www.olo.com/restaurants/enterprise-brands",
+        "https://www.olo.com/thoma-bravo-completes-acquisition-of-olo"
+      ],
+      "relations": 6,
+      "updated": "2026-06-07"
+    },
+    {
+      "id": "doc:topics/business/risks.md",
+      "path": "topics/business/risks.md",
+      "title": "Olo risk map",
+      "kind": "synthesis-note",
+      "topics": [
+        "risks",
+        "dependencies"
+      ],
+      "entities": [
+        "Olo",
+        "budget pressure at restaurant brands",
+        "disclosure decline",
+        "integration fragility",
+        "marketplace disintermediation",
+        "payment fraud exposure"
+      ],
+      "sources": [
+        "https://www.olo.com/dispatch",
+        "https://www.olo.com/pay",
+        "https://www.olo.com/thoma-bravo-completes-acquisition-of-olo"
+      ],
+      "relations": 5,
+      "updated": "2026-06-07"
+    },
+    {
+      "id": "doc:topics/business/timeline.md",
+      "path": "topics/business/timeline.md",
+      "title": "Olo timeline",
+      "kind": "synthesis-note",
+      "topics": [
+        "timeline",
+        "acquisition"
+      ],
+      "entities": [
+        "2005 founding",
+        "Olo",
+        "Thoma Bravo acquisition",
+        "privatization"
+      ],
+      "sources": [
+        "https://www.olo.com/thoma-bravo-completes-acquisition-of-olo",
+        "https://www.thomabravo.com/press-releases/olo-enters-into-definitive-agreement-to-be-acquired-by-thoma-bravo"
+      ],
+      "relations": 3,
+      "updated": "2026-06-07"
+    },
+    {
+      "id": "doc:topics/customers/customer-map.md",
+      "path": "topics/customers/customer-map.md",
+      "title": "Olo customer map",
+      "kind": "synthesis-note",
+      "topics": [
+        "customers",
+        "enterprise-brands"
+      ],
+      "entities": [
+        "Olo",
+        "digital teams",
+        "enterprise restaurant brands",
+        "franchise operators",
+        "operations teams",
+        "restaurant guests"
+      ],
+      "sources": [
+        "https://www.olo.com/",
+        "https://www.olo.com/restaurants/enterprise-brands"
+      ],
+      "relations": 5,
+      "updated": "2026-06-07"
+    },
+    {
+      "id": "doc:topics/external-forces/dependencies.md",
+      "path": "topics/external-forces/dependencies.md",
+      "title": "Olo external forces and dependencies",
+      "kind": "synthesis-note",
+      "topics": [
+        "external-forces",
+        "ecosystem"
+      ],
+      "entities": [
+        "Olo",
+        "POS integrations",
+        "delivery marketplaces",
+        "franchise complexity",
+        "payment economics",
+        "private equity ownership",
+        "restaurant IT budgets",
+        "restaurant digital order volume"
+      ],
+      "sources": [
+        "https://www.olo.com/dispatch",
+        "https://www.olo.com/pay",
+        "https://www.thomabravo.com/press-releases/olo-enters-into-definitive-agreement-to-be-acquired-by-thoma-bravo"
+      ],
+      "relations": 7,
+      "updated": "2026-06-07"
+    },
+    {
+      "id": "doc:topics/inbox/2026-06-07-2d0ec1c066.md",
+      "path": "topics/inbox/2026-06-07-2d0ec1c066.md",
+      "title": "Olo Engage product page",
+      "kind": "webpage",
+      "topics": [
+        "products"
+      ],
+      "entities": [
+        "Olo Engage"
+      ],
+      "sources": [
+        "https://www.olo.com/engage"
+      ],
+      "relations": 0,
+      "updated": "2026-06-07T23:57:55.751410+00:00"
+    },
+    {
+      "id": "doc:topics/inbox/2026-06-07-399ce88063.md",
+      "path": "topics/inbox/2026-06-07-399ce88063.md",
+      "title": "Olo ordering product page",
+      "kind": "webpage",
+      "topics": [
+        "products"
+      ],
+      "entities": [
+        "Ordering"
+      ],
+      "sources": [
+        "https://www.olo.com/ordering"
+      ],
+      "relations": 0,
+      "updated": "2026-06-07T23:57:54.706660+00:00"
+    },
+    {
+      "id": "doc:topics/inbox/2026-06-07-4749e172b3.md",
+      "path": "topics/inbox/2026-06-07-4749e172b3.md",
+      "title": "Olo Dispatch product page",
+      "kind": "webpage",
+      "topics": [
+        "products"
+      ],
+      "entities": [
+        "Olo Dispatch"
+      ],
+      "sources": [
+        "https://www.olo.com/dispatch"
+      ],
+      "relations": 0,
+      "updated": "2026-06-07T23:57:55.392928+00:00"
+    },
+    {
+      "id": "doc:topics/inbox/2026-06-07-805e1d9f1a.md",
+      "path": "topics/inbox/2026-06-07-805e1d9f1a.md",
+      "title": "Olo homepage",
+      "kind": "webpage",
+      "topics": [
+        "company-overview"
+      ],
+      "entities": [
+        "Olo"
+      ],
+      "sources": [
+        "https://www.olo.com/"
+      ],
+      "relations": 0,
+      "updated": "2026-06-07T23:57:54.342349+00:00"
+    },
+    {
+      "id": "doc:topics/inbox/2026-06-07-e5a67330d1.md",
+      "path": "topics/inbox/2026-06-07-e5a67330d1.md",
+      "title": "Olo Pay product page",
+      "kind": "webpage",
+      "topics": [
+        "products"
+      ],
+      "entities": [
+        "Olo Pay"
+      ],
+      "sources": [
+        "https://www.olo.com/pay"
+      ],
+      "relations": 0,
+      "updated": "2026-06-07T23:57:55.053386+00:00"
+    },
+    {
+      "id": "doc:topics/market/competitors.md",
+      "path": "topics/market/competitors.md",
+      "title": "Olo competitor map",
+      "kind": "synthesis-note",
+      "topics": [
+        "competitors",
+        "market-map"
+      ],
+      "entities": [
+        "ChowNow",
+        "DoorDash Storefront",
+        "Lunchbox",
+        "NCR Voyix",
+        "Olo",
+        "PAR Technology",
+        "Popmenu",
+        "Square",
+        "Toast"
+      ],
+      "sources": [],
+      "relations": 8,
+      "updated": "2026-06-07"
+    },
+    {
+      "id": "doc:topics/products/dispatch.md",
+      "path": "topics/products/dispatch.md",
+      "title": "Olo Dispatch",
+      "kind": "product-note",
+      "topics": [
+        "products",
+        "delivery",
+        "dispatch"
+      ],
+      "entities": [
+        "Olo",
+        "Olo Dispatch",
+        "delivery orchestration",
+        "direct consumer relationships",
+        "third-party delivery providers"
+      ],
+      "sources": [
+        "https://www.olo.com/dispatch"
+      ],
+      "relations": 3,
+      "updated": "2026-06-07"
+    },
+    {
+      "id": "doc:topics/products/engage.md",
+      "path": "topics/products/engage.md",
+      "title": "Olo Engage",
+      "kind": "product-note",
+      "topics": [
+        "products",
+        "guest-data",
+        "marketing"
+      ],
+      "entities": [
+        "Olo",
+        "Olo Engage",
+        "guest data",
+        "guest lifetime value",
+        "reputation management",
+        "retention marketing"
+      ],
+      "sources": [
+        "https://www.olo.com/engage",
+        "https://www.olo.com/restaurant-marketing-guide"
+      ],
+      "relations": 5,
+      "updated": "2026-06-07"
+    },
+    {
+      "id": "doc:topics/products/ordering.md",
+      "path": "topics/products/ordering.md",
+      "title": "Olo Ordering",
+      "kind": "product-note",
+      "topics": [
+        "products",
+        "ordering"
+      ],
+      "entities": [
+        "Olo",
+        "Olo Ordering",
+        "digital ordering",
+        "direct digital sales",
+        "restaurant brands"
+      ],
+      "sources": [
+        "https://www.olo.com/ordering"
+      ],
+      "relations": 3,
+      "updated": "2026-06-07"
+    },
+    {
+      "id": "doc:topics/products/payments.md",
+      "path": "topics/products/payments.md",
+      "title": "Olo Pay",
+      "kind": "product-note",
+      "topics": [
+        "products",
+        "payments",
+        "fraud"
+      ],
+      "entities": [
+        "Olo",
+        "Olo Pay",
+        "authorization rate",
+        "digital payments",
+        "fraud prevention"
+      ],
+      "sources": [
+        "https://www.olo.com/pay"
+      ],
+      "relations": 4,
+      "updated": "2026-06-07"
+    },
+    {
+      "id": "doc:topics/reports/confidence-map.md",
+      "path": "topics/reports/confidence-map.md",
+      "title": "Olo confidence map",
+      "kind": "report",
+      "topics": [
+        "confidence",
+        "claims"
+      ],
+      "entities": [
+        "Olo",
+        "high confidence claims",
+        "medium confidence claims",
+        "unknowns"
+      ],
+      "sources": [],
+      "relations": 3,
+      "updated": "2026-06-07"
+    },
+    {
+      "id": "doc:topics/reports/krail-package-test-results.md",
+      "path": "topics/reports/krail-package-test-results.md",
+      "title": "KRAIL package test results on Olo company brain",
+      "kind": "report",
+      "topics": [
+        "package-testing",
+        "krail",
+        "failures"
+      ],
+      "entities": [
+        "KRAIL",
+        "company-brain pack",
+        "deterministic artifacts",
+        "graph build",
+        "verification script"
+      ],
+      "sources": [],
+      "relations": 3,
+      "updated": "2026-06-08"
+    }
+  ],
+  "nodes": [
+    {
+      "label": "Current Plan",
+      "nodeType": "document",
+      "kind": "plan",
+      "path": "research_plan/current_plan.md",
+      "id": "doc:research_plan/current_plan.md"
+    },
+    {
+      "label": "Source Registry",
+      "nodeType": "document",
+      "kind": "registry",
+      "path": "research_plan/source_registry.md",
+      "id": "doc:research_plan/source_registry.md"
+    },
+    {
+      "label": "brief",
+      "nodeType": "document",
+      "kind": "brief",
+      "path": "topics/brief.md",
+      "id": "doc:topics/brief.md"
+    },
+    {
+      "label": "business model",
+      "nodeType": "document",
+      "kind": "synthesis-note",
+      "path": "topics/business/business-model.md",
+      "updated": "2026-06-07",
+      "id": "doc:topics/business/business-model.md"
+    },
+    {
+      "label": "overview",
+      "nodeType": "document",
+      "kind": "synthesis-note",
+      "path": "topics/business/overview.md",
+      "updated": "2026-06-07",
+      "id": "doc:topics/business/overview.md"
+    },
+    {
+      "label": "Olo risk map",
+      "nodeType": "document",
+      "kind": "synthesis-note",
+      "path": "topics/business/risks.md",
+      "updated": "2026-06-07",
+      "id": "doc:topics/business/risks.md"
+    },
+    {
+      "label": "Olo timeline",
+      "nodeType": "document",
+      "kind": "synthesis-note",
+      "path": "topics/business/timeline.md",
+      "updated": "2026-06-07",
+      "id": "doc:topics/business/timeline.md"
+    },
+    {
+      "label": "Olo customer map",
+      "nodeType": "document",
+      "kind": "synthesis-note",
+      "path": "topics/customers/customer-map.md",
+      "updated": "2026-06-07",
+      "id": "doc:topics/customers/customer-map.md"
+    },
+    {
+      "label": "Olo external forces and dependencies",
+      "nodeType": "document",
+      "kind": "synthesis-note",
+      "path": "topics/external-forces/dependencies.md",
+      "updated": "2026-06-07",
+      "id": "doc:topics/external-forces/dependencies.md"
+    },
+    {
+      "label": "Olo Engage product page",
+      "nodeType": "document",
+      "kind": "webpage",
+      "path": "topics/inbox/2026-06-07-2d0ec1c066.md",
+      "updated": "2026-06-07T23:57:55.751410+00:00",
+      "id": "doc:topics/inbox/2026-06-07-2d0ec1c066.md"
+    },
+    {
+      "label": "Olo ordering product page",
+      "nodeType": "document",
+      "kind": "webpage",
+      "path": "topics/inbox/2026-06-07-399ce88063.md",
+      "updated": "2026-06-07T23:57:54.706660+00:00",
+      "id": "doc:topics/inbox/2026-06-07-399ce88063.md"
+    },
+    {
+      "label": "Olo Dispatch product page",
+      "nodeType": "document",
+      "kind": "webpage",
+      "path": "topics/inbox/2026-06-07-4749e172b3.md",
+      "updated": "2026-06-07T23:57:55.392928+00:00",
+      "id": "doc:topics/inbox/2026-06-07-4749e172b3.md"
+    },
+    {
+      "label": "Olo homepage",
+      "nodeType": "document",
+      "kind": "webpage",
+      "path": "topics/inbox/2026-06-07-805e1d9f1a.md",
+      "updated": "2026-06-07T23:57:54.342349+00:00",
+      "id": "doc:topics/inbox/2026-06-07-805e1d9f1a.md"
+    },
+    {
+      "label": "Olo Pay product page",
+      "nodeType": "document",
+      "kind": "webpage",
+      "path": "topics/inbox/2026-06-07-e5a67330d1.md",
+      "updated": "2026-06-07T23:57:55.053386+00:00",
+      "id": "doc:topics/inbox/2026-06-07-e5a67330d1.md"
+    },
+    {
+      "label": "Olo competitor map",
+      "nodeType": "document",
+      "kind": "synthesis-note",
+      "path": "topics/market/competitors.md",
+      "updated": "2026-06-07",
+      "id": "doc:topics/market/competitors.md"
+    },
+    {
+      "label": "dispatch",
+      "nodeType": "document",
+      "kind": "product-note",
+      "path": "topics/products/dispatch.md",
+      "updated": "2026-06-07",
+      "id": "doc:topics/products/dispatch.md"
+    },
+    {
+      "label": "engage",
+      "nodeType": "document",
+      "kind": "product-note",
+      "path": "topics/products/engage.md",
+      "updated": "2026-06-07",
+      "id": "doc:topics/products/engage.md"
+    },
+    {
+      "label": "ordering",
+      "nodeType": "document",
+      "kind": "product-note",
+      "path": "topics/products/ordering.md",
+      "updated": "2026-06-07",
+      "id": "doc:topics/products/ordering.md"
+    },
+    {
+      "label": "payments",
+      "nodeType": "document",
+      "kind": "product-note",
+      "path": "topics/products/payments.md",
+      "updated": "2026-06-07",
+      "id": "doc:topics/products/payments.md"
+    },
+    {
+      "label": "Olo confidence map",
+      "nodeType": "document",
+      "kind": "report",
+      "path": "topics/reports/confidence-map.md",
+      "updated": "2026-06-07",
+      "id": "doc:topics/reports/confidence-map.md"
+    },
+    {
+      "label": "KRAIL package test results on Olo company brain",
+      "nodeType": "document",
+      "kind": "report",
+      "path": "topics/reports/krail-package-test-results.md",
+      "updated": "2026-06-08",
+      "id": "doc:topics/reports/krail-package-test-results.md"
+    },
+    {
+      "label": "2005 founding",
+      "nodeType": "entity",
+      "entityType": "Event",
+      "id": "entity:2005-founding"
+    },
+    {
+      "label": "authorization rate",
+      "nodeType": "entity",
+      "entityType": "Metric",
+      "id": "entity:authorization-rate"
+    },
+    {
+      "label": "budget pressure at restaurant brands",
+      "nodeType": "entity",
+      "entityType": "Risk",
+      "id": "entity:budget-pressure-at-restaurant-brands"
+    },
+    {
+      "label": "ChowNow",
+      "nodeType": "entity",
+      "entityType": "Competitor",
+      "id": "entity:chownow"
+    },
+    {
+      "label": "company brain",
+      "nodeType": "entity",
+      "entityType": "SystemDesign",
+      "id": "entity:company-brain"
+    },
+    {
+      "label": "company-brain pack",
+      "nodeType": "entity",
+      "entityType": "PackageComponent",
+      "id": "entity:company-brain-pack"
+    },
+    {
+      "label": "delivery marketplaces",
+      "nodeType": "entity",
+      "entityType": "Dependency",
+      "id": "entity:delivery-marketplaces"
+    },
+    {
+      "label": "delivery orchestration",
+      "nodeType": "entity",
+      "entityType": "ProductCategory",
+      "id": "entity:delivery-orchestration"
+    },
+    {
+      "label": "deterministic artifacts",
+      "nodeType": "entity",
+      "entityType": "QualityCheck",
+      "id": "entity:deterministic-artifacts"
+    },
+    {
+      "label": "digital ordering",
+      "nodeType": "entity",
+      "entityType": "ProductCategory",
+      "id": "entity:digital-ordering"
+    },
+    {
+      "label": "digital payments",
+      "nodeType": "entity",
+      "entityType": "ProductCategory",
+      "id": "entity:digital-payments"
+    },
+    {
+      "label": "digital teams",
+      "nodeType": "entity",
+      "entityType": "BuyerPersona",
+      "id": "entity:digital-teams"
+    },
+    {
+      "label": "direct consumer relationships",
+      "nodeType": "entity",
+      "entityType": "BusinessOutcome",
+      "id": "entity:direct-consumer-relationships"
+    },
+    {
+      "label": "direct digital sales",
+      "nodeType": "entity",
+      "entityType": "BusinessOutcome",
+      "id": "entity:direct-digital-sales"
+    },
+    {
+      "label": "disclosure decline",
+      "nodeType": "entity",
+      "entityType": "Risk",
+      "id": "entity:disclosure-decline"
+    },
+    {
+      "label": "DoorDash Storefront",
+      "nodeType": "entity",
+      "entityType": "Competitor",
+      "id": "entity:doordash-storefront"
+    },
+    {
+      "label": "enterprise restaurant brands",
+      "nodeType": "entity",
+      "entityType": "CustomerSegment",
+      "id": "entity:enterprise-restaurant-brands"
+    },
+    {
+      "label": "franchise complexity",
+      "nodeType": "entity",
+      "entityType": "Dependency",
+      "id": "entity:franchise-complexity"
+    },
+    {
+      "label": "franchise operators",
+      "nodeType": "entity",
+      "entityType": "CustomerSegment",
+      "id": "entity:franchise-operators"
+    },
+    {
+      "label": "fraud prevention",
+      "nodeType": "entity",
+      "entityType": "Capability",
+      "id": "entity:fraud-prevention"
+    },
+    {
+      "label": "graph build",
+      "nodeType": "entity",
+      "entityType": "WorkflowStep",
+      "id": "entity:graph-build"
+    },
+    {
+      "label": "guest data",
+      "nodeType": "entity",
+      "entityType": "DataAsset",
+      "id": "entity:guest-data"
+    },
+    {
+      "label": "guest engagement",
+      "nodeType": "entity",
+      "entityType": "ProductCategory",
+      "id": "entity:guest-engagement"
+    },
+    {
+      "label": "guest lifetime value",
+      "nodeType": "entity",
+      "entityType": "Metric",
+      "id": "entity:guest-lifetime-value"
+    },
+    {
+      "label": "high confidence claims",
+      "nodeType": "entity",
+      "entityType": "ClaimGroup",
+      "id": "entity:high-confidence-claims"
+    },
+    {
+      "label": "integration fragility",
+      "nodeType": "entity",
+      "entityType": "Risk",
+      "id": "entity:integration-fragility"
+    },
+    {
+      "label": "KRAIL",
+      "nodeType": "entity",
+      "entityType": "Package",
+      "id": "entity:krail"
+    },
+    {
+      "label": "Lunchbox",
+      "nodeType": "entity",
+      "entityType": "Competitor",
+      "id": "entity:lunchbox"
+    },
+    {
+      "label": "marketplace disintermediation",
+      "nodeType": "entity",
+      "entityType": "Risk",
+      "id": "entity:marketplace-disintermediation"
+    },
+    {
+      "label": "medium confidence claims",
+      "nodeType": "entity",
+      "entityType": "ClaimGroup",
+      "id": "entity:medium-confidence-claims"
+    },
+    {
+      "label": "NCR Voyix",
+      "nodeType": "entity",
+      "entityType": "Competitor",
+      "id": "entity:ncr-voyix"
+    },
+    {
+      "label": "Noah Glass",
+      "nodeType": "entity",
+      "entityType": "Executive",
+      "id": "entity:noah-glass"
+    },
+    {
+      "label": "Olo",
+      "nodeType": "entity",
+      "entityType": "Company",
+      "id": "entity:olo"
+    },
+    {
+      "label": "Olo acquisition completion announcement",
+      "nodeType": "entity",
+      "entityType": "Source",
+      "id": "entity:olo-acquisition-completion-announcement"
+    },
+    {
+      "label": "Olo Dispatch",
+      "nodeType": "entity",
+      "entityType": "Product",
+      "id": "entity:olo-dispatch"
+    },
+    {
+      "label": "Olo Dispatch page",
+      "nodeType": "entity",
+      "entityType": "Source",
+      "id": "entity:olo-dispatch-page"
+    },
+    {
+      "label": "Olo Engage",
+      "nodeType": "entity",
+      "entityType": "Product",
+      "id": "entity:olo-engage"
+    },
+    {
+      "label": "Olo Engage page",
+      "nodeType": "entity",
+      "entityType": "Source",
+      "id": "entity:olo-engage-page"
+    },
+    {
+      "label": "Olo homepage",
+      "nodeType": "entity",
+      "entityType": "Source",
+      "id": "entity:olo-homepage"
+    },
+    {
+      "label": "Olo Ordering",
+      "nodeType": "entity",
+      "entityType": "Product",
+      "id": "entity:olo-ordering"
+    },
+    {
+      "label": "Olo ordering page",
+      "nodeType": "entity",
+      "entityType": "Source",
+      "id": "entity:olo-ordering-page"
+    },
+    {
+      "label": "Olo Pay",
+      "nodeType": "entity",
+      "entityType": "Product",
+      "id": "entity:olo-pay"
+    },
+    {
+      "label": "Olo Pay page",
+      "nodeType": "entity",
+      "entityType": "Source",
+      "id": "entity:olo-pay-page"
+    },
+    {
+      "label": "open SaaS platform",
+      "nodeType": "entity",
+      "entityType": "ProductCategory",
+      "id": "entity:open-saas-platform"
+    },
+    {
+      "label": "operations teams",
+      "nodeType": "entity",
+      "entityType": "UserPersona",
+      "id": "entity:operations-teams"
+    },
+    {
+      "label": "Ordering",
+      "nodeType": "entity",
+      "entityType": "Product",
+      "id": "entity:ordering"
+    },
+    {
+      "label": "PAR Technology",
+      "nodeType": "entity",
+      "entityType": "Competitor",
+      "id": "entity:par-technology"
+    },
+    {
+      "label": "payment economics",
+      "nodeType": "entity",
+      "entityType": "Dependency",
+      "id": "entity:payment-economics"
+    },
+    {
+      "label": "payment fraud exposure",
+      "nodeType": "entity",
+      "entityType": "Risk",
+      "id": "entity:payment-fraud-exposure"
+    },
+    {
+      "label": "payment revenue",
+      "nodeType": "entity",
+      "entityType": "RevenueStream",
+      "id": "entity:payment-revenue"
+    },
+    {
+      "label": "payments",
+      "nodeType": "entity",
+      "entityType": "ProductCategory",
+      "id": "entity:payments"
+    },
+    {
+      "label": "Popmenu",
+      "nodeType": "entity",
+      "entityType": "Competitor",
+      "id": "entity:popmenu"
+    },
+    {
+      "label": "POS integrations",
+      "nodeType": "entity",
+      "entityType": "Dependency",
+      "id": "entity:pos-integrations"
+    },
+    {
+      "label": "private equity ownership",
+      "nodeType": "entity",
+      "entityType": "OwnershipContext",
+      "id": "entity:private-equity-ownership"
+    },
+    {
+      "label": "privatization",
+      "nodeType": "entity",
+      "entityType": "Event",
+      "id": "entity:privatization"
+    },
+    {
+      "label": "reputation management",
+      "nodeType": "entity",
+      "entityType": "Capability",
+      "id": "entity:reputation-management"
+    },
+    {
+      "label": "restaurant brands",
+      "nodeType": "entity",
+      "entityType": "CustomerSegment",
+      "id": "entity:restaurant-brands"
+    },
+    {
+      "label": "restaurant digital order volume",
+      "nodeType": "entity",
+      "entityType": "MarketTrend",
+      "id": "entity:restaurant-digital-order-volume"
+    },
+    {
+      "label": "restaurant guests",
+      "nodeType": "entity",
+      "entityType": "EndUser",
+      "id": "entity:restaurant-guests"
+    },
+    {
+      "label": "restaurant IT budgets",
+      "nodeType": "entity",
+      "entityType": "Dependency",
+      "id": "entity:restaurant-it-budgets"
+    },
+    {
+      "label": "retention marketing",
+      "nodeType": "entity",
+      "entityType": "Capability",
+      "id": "entity:retention-marketing"
+    },
+    {
+      "label": "Square",
+      "nodeType": "entity",
+      "entityType": "Competitor",
+      "id": "entity:square"
+    },
+    {
+      "label": "subscription revenue",
+      "nodeType": "entity",
+      "entityType": "RevenueStream",
+      "id": "entity:subscription-revenue"
+    },
+    {
+      "label": "third-party delivery providers",
+      "nodeType": "entity",
+      "entityType": "PartnerType",
+      "id": "entity:third-party-delivery-providers"
+    },
+    {
+      "label": "Thoma Bravo",
+      "nodeType": "entity",
+      "entityType": "Investor",
+      "id": "entity:thoma-bravo"
+    },
+    {
+      "label": "Thoma Bravo acquisition",
+      "nodeType": "entity",
+      "entityType": "Event",
+      "id": "entity:thoma-bravo-acquisition"
+    },
+    {
+      "label": "Thoma Bravo acquisition announcement",
+      "nodeType": "entity",
+      "entityType": "Source",
+      "id": "entity:thoma-bravo-acquisition-announcement"
+    },
+    {
+      "label": "Toast",
+      "nodeType": "entity",
+      "entityType": "Competitor",
+      "id": "entity:toast"
+    },
+    {
+      "label": "transaction-linked revenue",
+      "nodeType": "entity",
+      "entityType": "RevenueStream",
+      "id": "entity:transaction-linked-revenue"
+    },
+    {
+      "label": "unknowns",
+      "nodeType": "entity",
+      "entityType": "ClaimGroup",
+      "id": "entity:unknowns"
+    },
+    {
+      "label": "verification script",
+      "nodeType": "entity",
+      "entityType": "WorkflowStep",
+      "id": "entity:verification-script"
+    },
+    {
+      "label": "https://www.olo.com/",
+      "nodeType": "source",
+      "url": "https://www.olo.com/",
+      "id": "source:https-www-olo-com"
+    },
+    {
+      "label": "https://www.olo.com/dispatch",
+      "nodeType": "source",
+      "url": "https://www.olo.com/dispatch",
+      "id": "source:https-www-olo-com-dispatch"
+    },
+    {
+      "label": "https://www.olo.com/engage",
+      "nodeType": "source",
+      "url": "https://www.olo.com/engage",
+      "id": "source:https-www-olo-com-engage"
+    },
+    {
+      "label": "https://www.olo.com/ordering",
+      "nodeType": "source",
+      "url": "https://www.olo.com/ordering",
+      "id": "source:https-www-olo-com-ordering"
+    },
+    {
+      "label": "https://www.olo.com/pay",
+      "nodeType": "source",
+      "url": "https://www.olo.com/pay",
+      "id": "source:https-www-olo-com-pay"
+    },
+    {
+      "label": "https://www.olo.com/restaurant-marketing-guide",
+      "nodeType": "source",
+      "url": "https://www.olo.com/restaurant-marketing-guide",
+      "id": "source:https-www-olo-com-restaurant-marketing-guide"
+    },
+    {
+      "label": "https://www.olo.com/restaurants/enterprise-brands",
+      "nodeType": "source",
+      "url": "https://www.olo.com/restaurants/enterprise-brands",
+      "id": "source:https-www-olo-com-restaurants-enterprise-brands"
+    },
+    {
+      "label": "https://www.olo.com/thoma-bravo-completes-acquisition-of-olo",
+      "nodeType": "source",
+      "url": "https://www.olo.com/thoma-bravo-completes-acquisition-of-olo",
+      "id": "source:https-www-olo-com-thoma-bravo-completes-acquisition-of-olo"
+    },
+    {
+      "label": "https://www.thomabravo.com/press-releases/olo-enters-into-definitive-agreement-to-be-acquired-by-thoma-bravo",
+      "nodeType": "source",
+      "url": "https://www.thomabravo.com/press-releases/olo-enters-into-definitive-agreement-to-be-acquired-by-thoma-bravo",
+      "id": "source:https-www-thomabravo-com-press-releases-olo-enters-into-definitive-agreement-to-be-acquired-by-thoma-bravo"
+    },
+    {
+      "label": "olo-acquisition-complete",
+      "nodeType": "source",
+      "sourceType": "url",
+      "url": "https://www.olo.com/thoma-bravo-completes-acquisition-of-olo",
+      "refresh": "manual",
+      "id": "source:olo-acquisition-complete"
+    },
+    {
+      "label": "olo-dispatch",
+      "nodeType": "source",
+      "sourceType": "url",
+      "url": "https://www.olo.com/dispatch",
+      "refresh": "manual",
+      "id": "source:olo-dispatch"
+    },
+    {
+      "label": "olo-engage",
+      "nodeType": "source",
+      "sourceType": "url",
+      "url": "https://www.olo.com/engage",
+      "refresh": "manual",
+      "id": "source:olo-engage"
+    },
+    {
+      "label": "olo-enterprise-brands",
+      "nodeType": "source",
+      "sourceType": "url",
+      "url": "https://www.olo.com/restaurants/enterprise-brands",
+      "refresh": "manual",
+      "id": "source:olo-enterprise-brands"
+    },
+    {
+      "label": "olo-homepage",
+      "nodeType": "source",
+      "sourceType": "url",
+      "url": "https://www.olo.com/",
+      "refresh": "manual",
+      "id": "source:olo-homepage"
+    },
+    {
+      "label": "olo-marketing-guide",
+      "nodeType": "source",
+      "sourceType": "url",
+      "url": "https://www.olo.com/restaurant-marketing-guide",
+      "refresh": "manual",
+      "id": "source:olo-marketing-guide"
+    },
+    {
+      "label": "olo-ordering",
+      "nodeType": "source",
+      "sourceType": "url",
+      "url": "https://www.olo.com/ordering",
+      "refresh": "manual",
+      "id": "source:olo-ordering"
+    },
+    {
+      "label": "olo-pay",
+      "nodeType": "source",
+      "sourceType": "url",
+      "url": "https://www.olo.com/pay",
+      "refresh": "manual",
+      "id": "source:olo-pay"
+    },
+    {
+      "label": "thoma-bravo-acquisition",
+      "nodeType": "source",
+      "sourceType": "url",
+      "url": "https://www.thomabravo.com/press-releases/olo-enters-into-definitive-agreement-to-be-acquired-by-thoma-bravo",
+      "refresh": "manual",
+      "id": "source:thoma-bravo-acquisition"
+    },
+    {
+      "label": "acquisition",
+      "nodeType": "topic",
+      "id": "topic:acquisition"
+    },
+    {
+      "label": "business-model",
+      "nodeType": "topic",
+      "id": "topic:business-model"
+    },
+    {
+      "label": "business-overview",
+      "nodeType": "topic",
+      "id": "topic:business-overview"
+    },
+    {
+      "label": "claims",
+      "nodeType": "topic",
+      "id": "topic:claims"
+    },
+    {
+      "label": "company-brain",
+      "nodeType": "topic",
+      "id": "topic:company-brain"
+    },
+    {
+      "label": "company-overview",
+      "nodeType": "topic",
+      "id": "topic:company-overview"
+    },
+    {
+      "label": "competitors",
+      "nodeType": "topic",
+      "id": "topic:competitors"
+    },
+    {
+      "label": "confidence",
+      "nodeType": "topic",
+      "id": "topic:confidence"
+    },
+    {
+      "label": "customers",
+      "nodeType": "topic",
+      "id": "topic:customers"
+    },
+    {
+      "label": "delivery",
+      "nodeType": "topic",
+      "id": "topic:delivery"
+    },
+    {
+      "label": "dependencies",
+      "nodeType": "topic",
+      "id": "topic:dependencies"
+    },
+    {
+      "label": "dispatch",
+      "nodeType": "topic",
+      "id": "topic:dispatch"
+    },
+    {
+      "label": "ecosystem",
+      "nodeType": "topic",
+      "id": "topic:ecosystem"
+    },
+    {
+      "label": "enterprise-brands",
+      "nodeType": "topic",
+      "id": "topic:enterprise-brands"
+    },
+    {
+      "label": "external-forces",
+      "nodeType": "topic",
+      "id": "topic:external-forces"
+    },
+    {
+      "label": "failures",
+      "nodeType": "topic",
+      "id": "topic:failures"
+    },
+    {
+      "label": "fraud",
+      "nodeType": "topic",
+      "id": "topic:fraud"
+    },
+    {
+      "label": "guest-data",
+      "nodeType": "topic",
+      "id": "topic:guest-data"
+    },
+    {
+      "label": "krail",
+      "nodeType": "topic",
+      "id": "topic:krail"
+    },
+    {
+      "label": "market-map",
+      "nodeType": "topic",
+      "id": "topic:market-map"
+    },
+    {
+      "label": "marketing",
+      "nodeType": "topic",
+      "id": "topic:marketing"
+    },
+    {
+      "label": "ordering",
+      "nodeType": "topic",
+      "id": "topic:ordering"
+    },
+    {
+      "label": "package-testing",
+      "nodeType": "topic",
+      "id": "topic:package-testing"
+    },
+    {
+      "label": "payments",
+      "nodeType": "topic",
+      "id": "topic:payments"
+    },
+    {
+      "label": "planning",
+      "nodeType": "topic",
+      "id": "topic:planning"
+    },
+    {
+      "label": "products",
+      "nodeType": "topic",
+      "id": "topic:products"
+    },
+    {
+      "label": "restaurant-tech",
+      "nodeType": "topic",
+      "id": "topic:restaurant-tech"
+    },
+    {
+      "label": "restaurant-technology",
+      "nodeType": "topic",
+      "id": "topic:restaurant-technology"
+    },
+    {
+      "label": "revenue-model",
+      "nodeType": "topic",
+      "id": "topic:revenue-model"
+    },
+    {
+      "label": "risks",
+      "nodeType": "topic",
+      "id": "topic:risks"
+    },
+    {
+      "label": "sources",
+      "nodeType": "topic",
+      "id": "topic:sources"
+    },
+    {
+      "label": "timeline",
+      "nodeType": "topic",
+      "id": "topic:timeline"
+    },
+    {
+      "label": "vertical-saas",
+      "nodeType": "topic",
+      "id": "topic:vertical-saas"
+    }
+  ],
+  "edges": [
+    {
+      "id": "doc:research_plan/current_plan.md::has_topic::topic:company-brain::research_plan/current_plan.md",
+      "from": "doc:research_plan/current_plan.md",
+      "type": "has_topic",
+      "to": "topic:company-brain",
+      "source": "research_plan/current_plan.md"
+    },
+    {
+      "id": "doc:research_plan/current_plan.md::has_topic::topic:planning::research_plan/current_plan.md",
+      "from": "doc:research_plan/current_plan.md",
+      "type": "has_topic",
+      "to": "topic:planning",
+      "source": "research_plan/current_plan.md"
+    },
+    {
+      "id": "doc:research_plan/current_plan.md::mentions::entity:company-brain::research_plan/current_plan.md",
+      "from": "doc:research_plan/current_plan.md",
+      "type": "mentions",
+      "to": "entity:company-brain",
+      "source": "research_plan/current_plan.md"
+    },
+    {
+      "id": "doc:research_plan/current_plan.md::mentions::entity:olo::research_plan/current_plan.md",
+      "from": "doc:research_plan/current_plan.md",
+      "type": "mentions",
+      "to": "entity:olo",
+      "source": "research_plan/current_plan.md"
+    },
+    {
+      "id": "doc:research_plan/source_registry.md::has_topic::topic:company-brain::research_plan/source_registry.md",
+      "from": "doc:research_plan/source_registry.md",
+      "type": "has_topic",
+      "to": "topic:company-brain",
+      "source": "research_plan/source_registry.md"
+    },
+    {
+      "id": "doc:research_plan/source_registry.md::has_topic::topic:sources::research_plan/source_registry.md",
+      "from": "doc:research_plan/source_registry.md",
+      "type": "has_topic",
+      "to": "topic:sources",
+      "source": "research_plan/source_registry.md"
+    },
+    {
+      "id": "doc:research_plan/source_registry.md::mentions::entity:olo-acquisition-completion-announcement::research_plan/source_registry.md",
+      "from": "doc:research_plan/source_registry.md",
+      "type": "mentions",
+      "to": "entity:olo-acquisition-completion-announcement",
+      "source": "research_plan/source_registry.md"
+    },
+    {
+      "id": "doc:research_plan/source_registry.md::mentions::entity:olo-dispatch-page::research_plan/source_registry.md",
+      "from": "doc:research_plan/source_registry.md",
+      "type": "mentions",
+      "to": "entity:olo-dispatch-page",
+      "source": "research_plan/source_registry.md"
+    },
+    {
+      "id": "doc:research_plan/source_registry.md::mentions::entity:olo-engage-page::research_plan/source_registry.md",
+      "from": "doc:research_plan/source_registry.md",
+      "type": "mentions",
+      "to": "entity:olo-engage-page",
+      "source": "research_plan/source_registry.md"
+    },
+    {
+      "id": "doc:research_plan/source_registry.md::mentions::entity:olo-homepage::research_plan/source_registry.md",
+      "from": "doc:research_plan/source_registry.md",
+      "type": "mentions",
+      "to": "entity:olo-homepage",
+      "source": "research_plan/source_registry.md"
+    },
+    {
+      "id": "doc:research_plan/source_registry.md::mentions::entity:olo-ordering-page::research_plan/source_registry.md",
+      "from": "doc:research_plan/source_registry.md",
+      "type": "mentions",
+      "to": "entity:olo-ordering-page",
+      "source": "research_plan/source_registry.md"
+    },
+    {
+      "id": "doc:research_plan/source_registry.md::mentions::entity:olo-pay-page::research_plan/source_registry.md",
+      "from": "doc:research_plan/source_registry.md",
+      "type": "mentions",
+      "to": "entity:olo-pay-page",
+      "source": "research_plan/source_registry.md"
+    },
+    {
+      "id": "doc:research_plan/source_registry.md::mentions::entity:thoma-bravo-acquisition-announcement::research_plan/source_registry.md",
+      "from": "doc:research_plan/source_registry.md",
+      "type": "mentions",
+      "to": "entity:thoma-bravo-acquisition-announcement",
+      "source": "research_plan/source_registry.md"
+    },
+    {
+      "id": "doc:topics/brief.md::cites::source:https-www-olo-com-thoma-bravo-completes-acquisition-of-olo::topics/brief.md",
+      "from": "doc:topics/brief.md",
+      "type": "cites",
+      "to": "source:https-www-olo-com-thoma-bravo-completes-acquisition-of-olo",
+      "source": "topics/brief.md"
+    },
+    {
+      "id": "doc:topics/brief.md::cites::source:https-www-olo-com::topics/brief.md",
+      "from": "doc:topics/brief.md",
+      "type": "cites",
+      "to": "source:https-www-olo-com",
+      "source": "topics/brief.md"
+    },
+    {
+      "id": "doc:topics/brief.md::cites::source:https-www-thomabravo-com-press-releases-olo-enters-into-definitive-agreement-to-be-acquired-by-thoma-bravo::topics/brief.md",
+      "from": "doc:topics/brief.md",
+      "type": "cites",
+      "to": "source:https-www-thomabravo-com-press-releases-olo-enters-into-definitive-agreement-to-be-acquired-by-thoma-bravo",
+      "source": "topics/brief.md"
+    },
+    {
+      "id": "doc:topics/brief.md::depends_on::source:olo-acquisition-complete::sources/dependencies.yaml",
+      "from": "doc:topics/brief.md",
+      "type": "depends_on",
+      "to": "source:olo-acquisition-complete",
+      "source": "sources/dependencies.yaml",
+      "document": "doc:topics/brief.md",
+      "role": "post_close_confirmation",
+      "refresh": "manual"
+    },
+    {
+      "id": "doc:topics/brief.md::depends_on::source:olo-homepage::sources/dependencies.yaml",
+      "from": "doc:topics/brief.md",
+      "type": "depends_on",
+      "to": "source:olo-homepage",
+      "source": "sources/dependencies.yaml",
+      "document": "doc:topics/brief.md",
+      "role": "company_overview",
+      "refresh": "manual"
+    },
+    {
+      "id": "doc:topics/brief.md::depends_on::source:thoma-bravo-acquisition::sources/dependencies.yaml",
+      "from": "doc:topics/brief.md",
+      "type": "depends_on",
+      "to": "source:thoma-bravo-acquisition",
+      "source": "sources/dependencies.yaml",
+      "document": "doc:topics/brief.md",
+      "role": "transaction_fact",
+      "refresh": "manual"
+    },
+    {
+      "id": "doc:topics/brief.md::has_topic::topic:company-brain::topics/brief.md",
+      "from": "doc:topics/brief.md",
+      "type": "has_topic",
+      "to": "topic:company-brain",
+      "source": "topics/brief.md"
+    },
+    {
+      "id": "doc:topics/brief.md::has_topic::topic:restaurant-technology::topics/brief.md",
+      "from": "doc:topics/brief.md",
+      "type": "has_topic",
+      "to": "topic:restaurant-technology",
+      "source": "topics/brief.md"
+    },
+    {
+      "id": "doc:topics/brief.md::has_topic::topic:vertical-saas::topics/brief.md",
+      "from": "doc:topics/brief.md",
+      "type": "has_topic",
+      "to": "topic:vertical-saas",
+      "source": "topics/brief.md"
+    },
+    {
+      "id": "doc:topics/brief.md::mentions::entity:digital-ordering::topics/brief.md",
+      "from": "doc:topics/brief.md",
+      "type": "mentions",
+      "to": "entity:digital-ordering",
+      "source": "topics/brief.md"
+    },
+    {
+      "id": "doc:topics/brief.md::mentions::entity:noah-glass::topics/brief.md",
+      "from": "doc:topics/brief.md",
+      "type": "mentions",
+      "to": "entity:noah-glass",
+      "source": "topics/brief.md"
+    },
+    {
+      "id": "doc:topics/brief.md::mentions::entity:olo-dispatch::topics/brief.md",
+      "from": "doc:topics/brief.md",
+      "type": "mentions",
+      "to": "entity:olo-dispatch",
+      "source": "topics/brief.md"
+    },
+    {
+      "id": "doc:topics/brief.md::mentions::entity:olo-engage::topics/brief.md",
+      "from": "doc:topics/brief.md",
+      "type": "mentions",
+      "to": "entity:olo-engage",
+      "source": "topics/brief.md"
+    },
+    {
+      "id": "doc:topics/brief.md::mentions::entity:olo-pay::topics/brief.md",
+      "from": "doc:topics/brief.md",
+      "type": "mentions",
+      "to": "entity:olo-pay",
+      "source": "topics/brief.md"
+    },
+    {
+      "id": "doc:topics/brief.md::mentions::entity:olo::topics/brief.md",
+      "from": "doc:topics/brief.md",
+      "type": "mentions",
+      "to": "entity:olo",
+      "source": "topics/brief.md"
+    },
+    {
+      "id": "doc:topics/brief.md::mentions::entity:restaurant-brands::topics/brief.md",
+      "from": "doc:topics/brief.md",
+      "type": "mentions",
+      "to": "entity:restaurant-brands",
+      "source": "topics/brief.md"
+    },
+    {
+      "id": "doc:topics/brief.md::mentions::entity:thoma-bravo::topics/brief.md",
+      "from": "doc:topics/brief.md",
+      "type": "mentions",
+      "to": "entity:thoma-bravo",
+      "source": "topics/brief.md"
+    },
+    {
+      "id": "doc:topics/business/business-model.md::cites::source:https-www-olo-com-pay::topics/business/business-model.md",
+      "from": "doc:topics/business/business-model.md",
+      "type": "cites",
+      "to": "source:https-www-olo-com-pay",
+      "source": "topics/business/business-model.md"
+    },
+    {
+      "id": "doc:topics/business/business-model.md::cites::source:https-www-olo-com-thoma-bravo-completes-acquisition-of-olo::topics/business/business-model.md",
+      "from": "doc:topics/business/business-model.md",
+      "type": "cites",
+      "to": "source:https-www-olo-com-thoma-bravo-completes-acquisition-of-olo",
+      "source": "topics/business/business-model.md"
+    },
+    {
+      "id": "doc:topics/business/business-model.md::cites::source:https-www-thomabravo-com-press-releases-olo-enters-into-definitive-agreement-to-be-acquired-by-thoma-bravo::topics/business/business-model.md",
+      "from": "doc:topics/business/business-model.md",
+      "type": "cites",
+      "to": "source:https-www-thomabravo-com-press-releases-olo-enters-into-definitive-agreement-to-be-acquired-by-thoma-bravo",
+      "source": "topics/business/business-model.md"
+    },
+    {
+      "id": "doc:topics/business/business-model.md::depends_on::source:olo-pay::sources/dependencies.yaml",
+      "from": "doc:topics/business/business-model.md",
+      "type": "depends_on",
+      "to": "source:olo-pay",
+      "source": "sources/dependencies.yaml",
+      "document": "doc:topics/business/business-model.md",
+      "role": "payments_positioning",
+      "refresh": "manual"
+    },
+    {
+      "id": "doc:topics/business/business-model.md::depends_on::source:thoma-bravo-acquisition::sources/dependencies.yaml",
+      "from": "doc:topics/business/business-model.md",
+      "type": "depends_on",
+      "to": "source:thoma-bravo-acquisition",
+      "source": "sources/dependencies.yaml",
+      "document": "doc:topics/business/business-model.md",
+      "role": "scale_claim",
+      "refresh": "manual"
+    },
+    {
+      "id": "doc:topics/business/business-model.md::has_topic::topic:business-model::topics/business/business-model.md",
+      "from": "doc:topics/business/business-model.md",
+      "type": "has_topic",
+      "to": "topic:business-model",
+      "source": "topics/business/business-model.md"
+    },
+    {
+      "id": "doc:topics/business/business-model.md::has_topic::topic:payments::topics/business/business-model.md",
+      "from": "doc:topics/business/business-model.md",
+      "type": "has_topic",
+      "to": "topic:payments",
+      "source": "topics/business/business-model.md"
+    },
+    {
+      "id": "doc:topics/business/business-model.md::has_topic::topic:revenue-model::topics/business/business-model.md",
+      "from": "doc:topics/business/business-model.md",
+      "type": "has_topic",
+      "to": "topic:revenue-model",
+      "source": "topics/business/business-model.md"
+    },
+    {
+      "id": "doc:topics/business/business-model.md::mentions::entity:olo-pay::topics/business/business-model.md",
+      "from": "doc:topics/business/business-model.md",
+      "type": "mentions",
+      "to": "entity:olo-pay",
+      "source": "topics/business/business-model.md"
+    },
+    {
+      "id": "doc:topics/business/business-model.md::mentions::entity:olo::topics/business/business-model.md",
+      "from": "doc:topics/business/business-model.md",
+      "type": "mentions",
+      "to": "entity:olo",
+      "source": "topics/business/business-model.md"
+    },
+    {
+      "id": "doc:topics/business/business-model.md::mentions::entity:payment-revenue::topics/business/business-model.md",
+      "from": "doc:topics/business/business-model.md",
+      "type": "mentions",
+      "to": "entity:payment-revenue",
+      "source": "topics/business/business-model.md"
+    },
+    {
+      "id": "doc:topics/business/business-model.md::mentions::entity:restaurant-digital-order-volume::topics/business/business-model.md",
+      "from": "doc:topics/business/business-model.md",
+      "type": "mentions",
+      "to": "entity:restaurant-digital-order-volume",
+      "source": "topics/business/business-model.md"
+    },
+    {
+      "id": "doc:topics/business/business-model.md::mentions::entity:subscription-revenue::topics/business/business-model.md",
+      "from": "doc:topics/business/business-model.md",
+      "type": "mentions",
+      "to": "entity:subscription-revenue",
+      "source": "topics/business/business-model.md"
+    },
+    {
+      "id": "doc:topics/business/business-model.md::mentions::entity:transaction-linked-revenue::topics/business/business-model.md",
+      "from": "doc:topics/business/business-model.md",
+      "type": "mentions",
+      "to": "entity:transaction-linked-revenue",
+      "source": "topics/business/business-model.md"
+    },
+    {
+      "id": "doc:topics/business/overview.md::cites::source:https-www-olo-com-restaurants-enterprise-brands::topics/business/overview.md",
+      "from": "doc:topics/business/overview.md",
+      "type": "cites",
+      "to": "source:https-www-olo-com-restaurants-enterprise-brands",
+      "source": "topics/business/overview.md"
+    },
+    {
+      "id": "doc:topics/business/overview.md::cites::source:https-www-olo-com-thoma-bravo-completes-acquisition-of-olo::topics/business/overview.md",
+      "from": "doc:topics/business/overview.md",
+      "type": "cites",
+      "to": "source:https-www-olo-com-thoma-bravo-completes-acquisition-of-olo",
+      "source": "topics/business/overview.md"
+    },
+    {
+      "id": "doc:topics/business/overview.md::cites::source:https-www-olo-com::topics/business/overview.md",
+      "from": "doc:topics/business/overview.md",
+      "type": "cites",
+      "to": "source:https-www-olo-com",
+      "source": "topics/business/overview.md"
+    },
+    {
+      "id": "doc:topics/business/overview.md::depends_on::source:olo-enterprise-brands::sources/dependencies.yaml",
+      "from": "doc:topics/business/overview.md",
+      "type": "depends_on",
+      "to": "source:olo-enterprise-brands",
+      "source": "sources/dependencies.yaml",
+      "document": "doc:topics/business/overview.md",
+      "role": "customer_segment",
+      "refresh": "manual"
+    },
+    {
+      "id": "doc:topics/business/overview.md::depends_on::source:olo-homepage::sources/dependencies.yaml",
+      "from": "doc:topics/business/overview.md",
+      "type": "depends_on",
+      "to": "source:olo-homepage",
+      "source": "sources/dependencies.yaml",
+      "document": "doc:topics/business/overview.md",
+      "role": "company_overview",
+      "refresh": "manual"
+    },
+    {
+      "id": "doc:topics/business/overview.md::has_topic::topic:business-overview::topics/business/overview.md",
+      "from": "doc:topics/business/overview.md",
+      "type": "has_topic",
+      "to": "topic:business-overview",
+      "source": "topics/business/overview.md"
+    },
+    {
+      "id": "doc:topics/business/overview.md::has_topic::topic:restaurant-tech::topics/business/overview.md",
+      "from": "doc:topics/business/overview.md",
+      "type": "has_topic",
+      "to": "topic:restaurant-tech",
+      "source": "topics/business/overview.md"
+    },
+    {
+      "id": "doc:topics/business/overview.md::has_topic::topic:vertical-saas::topics/business/overview.md",
+      "from": "doc:topics/business/overview.md",
+      "type": "has_topic",
+      "to": "topic:vertical-saas",
+      "source": "topics/business/overview.md"
+    },
+    {
+      "id": "doc:topics/business/overview.md::mentions::entity:digital-ordering::topics/business/overview.md",
+      "from": "doc:topics/business/overview.md",
+      "type": "mentions",
+      "to": "entity:digital-ordering",
+      "source": "topics/business/overview.md"
+    },
+    {
+      "id": "doc:topics/business/overview.md::mentions::entity:guest-engagement::topics/business/overview.md",
+      "from": "doc:topics/business/overview.md",
+      "type": "mentions",
+      "to": "entity:guest-engagement",
+      "source": "topics/business/overview.md"
+    },
+    {
+      "id": "doc:topics/business/overview.md::mentions::entity:olo::topics/business/overview.md",
+      "from": "doc:topics/business/overview.md",
+      "type": "mentions",
+      "to": "entity:olo",
+      "source": "topics/business/overview.md"
+    },
+    {
+      "id": "doc:topics/business/overview.md::mentions::entity:open-saas-platform::topics/business/overview.md",
+      "from": "doc:topics/business/overview.md",
+      "type": "mentions",
+      "to": "entity:open-saas-platform",
+      "source": "topics/business/overview.md"
+    },
+    {
+      "id": "doc:topics/business/overview.md::mentions::entity:payments::topics/business/overview.md",
+      "from": "doc:topics/business/overview.md",
+      "type": "mentions",
+      "to": "entity:payments",
+      "source": "topics/business/overview.md"
+    },
+    {
+      "id": "doc:topics/business/overview.md::mentions::entity:restaurant-brands::topics/business/overview.md",
+      "from": "doc:topics/business/overview.md",
+      "type": "mentions",
+      "to": "entity:restaurant-brands",
+      "source": "topics/business/overview.md"
+    },
+    {
+      "id": "doc:topics/business/overview.md::mentions::entity:restaurant-guests::topics/business/overview.md",
+      "from": "doc:topics/business/overview.md",
+      "type": "mentions",
+      "to": "entity:restaurant-guests",
+      "source": "topics/business/overview.md"
+    },
+    {
+      "id": "doc:topics/business/risks.md::cites::source:https-www-olo-com-dispatch::topics/business/risks.md",
+      "from": "doc:topics/business/risks.md",
+      "type": "cites",
+      "to": "source:https-www-olo-com-dispatch",
+      "source": "topics/business/risks.md"
+    },
+    {
+      "id": "doc:topics/business/risks.md::cites::source:https-www-olo-com-pay::topics/business/risks.md",
+      "from": "doc:topics/business/risks.md",
+      "type": "cites",
+      "to": "source:https-www-olo-com-pay",
+      "source": "topics/business/risks.md"
+    },
+    {
+      "id": "doc:topics/business/risks.md::cites::source:https-www-olo-com-thoma-bravo-completes-acquisition-of-olo::topics/business/risks.md",
+      "from": "doc:topics/business/risks.md",
+      "type": "cites",
+      "to": "source:https-www-olo-com-thoma-bravo-completes-acquisition-of-olo",
+      "source": "topics/business/risks.md"
+    },
+    {
+      "id": "doc:topics/business/risks.md::has_topic::topic:dependencies::topics/business/risks.md",
+      "from": "doc:topics/business/risks.md",
+      "type": "has_topic",
+      "to": "topic:dependencies",
+      "source": "topics/business/risks.md"
+    },
+    {
+      "id": "doc:topics/business/risks.md::has_topic::topic:risks::topics/business/risks.md",
+      "from": "doc:topics/business/risks.md",
+      "type": "has_topic",
+      "to": "topic:risks",
+      "source": "topics/business/risks.md"
+    },
+    {
+      "id": "doc:topics/business/risks.md::mentions::entity:budget-pressure-at-restaurant-brands::topics/business/risks.md",
+      "from": "doc:topics/business/risks.md",
+      "type": "mentions",
+      "to": "entity:budget-pressure-at-restaurant-brands",
+      "source": "topics/business/risks.md"
+    },
+    {
+      "id": "doc:topics/business/risks.md::mentions::entity:disclosure-decline::topics/business/risks.md",
+      "from": "doc:topics/business/risks.md",
+      "type": "mentions",
+      "to": "entity:disclosure-decline",
+      "source": "topics/business/risks.md"
+    },
+    {
+      "id": "doc:topics/business/risks.md::mentions::entity:integration-fragility::topics/business/risks.md",
+      "from": "doc:topics/business/risks.md",
+      "type": "mentions",
+      "to": "entity:integration-fragility",
+      "source": "topics/business/risks.md"
+    },
+    {
+      "id": "doc:topics/business/risks.md::mentions::entity:marketplace-disintermediation::topics/business/risks.md",
+      "from": "doc:topics/business/risks.md",
+      "type": "mentions",
+      "to": "entity:marketplace-disintermediation",
+      "source": "topics/business/risks.md"
+    },
+    {
+      "id": "doc:topics/business/risks.md::mentions::entity:olo::topics/business/risks.md",
+      "from": "doc:topics/business/risks.md",
+      "type": "mentions",
+      "to": "entity:olo",
+      "source": "topics/business/risks.md"
+    },
+    {
+      "id": "doc:topics/business/risks.md::mentions::entity:payment-fraud-exposure::topics/business/risks.md",
+      "from": "doc:topics/business/risks.md",
+      "type": "mentions",
+      "to": "entity:payment-fraud-exposure",
+      "source": "topics/business/risks.md"
+    },
+    {
+      "id": "doc:topics/business/timeline.md::cites::source:https-www-olo-com-thoma-bravo-completes-acquisition-of-olo::topics/business/timeline.md",
+      "from": "doc:topics/business/timeline.md",
+      "type": "cites",
+      "to": "source:https-www-olo-com-thoma-bravo-completes-acquisition-of-olo",
+      "source": "topics/business/timeline.md"
+    },
+    {
+      "id": "doc:topics/business/timeline.md::cites::source:https-www-thomabravo-com-press-releases-olo-enters-into-definitive-agreement-to-be-acquired-by-thoma-bravo::topics/business/timeline.md",
+      "from": "doc:topics/business/timeline.md",
+      "type": "cites",
+      "to": "source:https-www-thomabravo-com-press-releases-olo-enters-into-definitive-agreement-to-be-acquired-by-thoma-bravo",
+      "source": "topics/business/timeline.md"
+    },
+    {
+      "id": "doc:topics/business/timeline.md::has_topic::topic:acquisition::topics/business/timeline.md",
+      "from": "doc:topics/business/timeline.md",
+      "type": "has_topic",
+      "to": "topic:acquisition",
+      "source": "topics/business/timeline.md"
+    },
+    {
+      "id": "doc:topics/business/timeline.md::has_topic::topic:timeline::topics/business/timeline.md",
+      "from": "doc:topics/business/timeline.md",
+      "type": "has_topic",
+      "to": "topic:timeline",
+      "source": "topics/business/timeline.md"
+    },
+    {
+      "id": "doc:topics/business/timeline.md::mentions::entity:2005-founding::topics/business/timeline.md",
+      "from": "doc:topics/business/timeline.md",
+      "type": "mentions",
+      "to": "entity:2005-founding",
+      "source": "topics/business/timeline.md"
+    },
+    {
+      "id": "doc:topics/business/timeline.md::mentions::entity:olo::topics/business/timeline.md",
+      "from": "doc:topics/business/timeline.md",
+      "type": "mentions",
+      "to": "entity:olo",
+      "source": "topics/business/timeline.md"
+    },
+    {
+      "id": "doc:topics/business/timeline.md::mentions::entity:privatization::topics/business/timeline.md",
+      "from": "doc:topics/business/timeline.md",
+      "type": "mentions",
+      "to": "entity:privatization",
+      "source": "topics/business/timeline.md"
+    },
+    {
+      "id": "doc:topics/business/timeline.md::mentions::entity:thoma-bravo-acquisition::topics/business/timeline.md",
+      "from": "doc:topics/business/timeline.md",
+      "type": "mentions",
+      "to": "entity:thoma-bravo-acquisition",
+      "source": "topics/business/timeline.md"
+    },
+    {
+      "id": "doc:topics/customers/customer-map.md::cites::source:https-www-olo-com-restaurants-enterprise-brands::topics/customers/customer-map.md",
+      "from": "doc:topics/customers/customer-map.md",
+      "type": "cites",
+      "to": "source:https-www-olo-com-restaurants-enterprise-brands",
+      "source": "topics/customers/customer-map.md"
+    },
+    {
+      "id": "doc:topics/customers/customer-map.md::cites::source:https-www-olo-com::topics/customers/customer-map.md",
+      "from": "doc:topics/customers/customer-map.md",
+      "type": "cites",
+      "to": "source:https-www-olo-com",
+      "source": "topics/customers/customer-map.md"
+    },
+    {
+      "id": "doc:topics/customers/customer-map.md::has_topic::topic:customers::topics/customers/customer-map.md",
+      "from": "doc:topics/customers/customer-map.md",
+      "type": "has_topic",
+      "to": "topic:customers",
+      "source": "topics/customers/customer-map.md"
+    },
+    {
+      "id": "doc:topics/customers/customer-map.md::has_topic::topic:enterprise-brands::topics/customers/customer-map.md",
+      "from": "doc:topics/customers/customer-map.md",
+      "type": "has_topic",
+      "to": "topic:enterprise-brands",
+      "source": "topics/customers/customer-map.md"
+    },
+    {
+      "id": "doc:topics/customers/customer-map.md::mentions::entity:digital-teams::topics/customers/customer-map.md",
+      "from": "doc:topics/customers/customer-map.md",
+      "type": "mentions",
+      "to": "entity:digital-teams",
+      "source": "topics/customers/customer-map.md"
+    },
+    {
+      "id": "doc:topics/customers/customer-map.md::mentions::entity:enterprise-restaurant-brands::topics/customers/customer-map.md",
+      "from": "doc:topics/customers/customer-map.md",
+      "type": "mentions",
+      "to": "entity:enterprise-restaurant-brands",
+      "source": "topics/customers/customer-map.md"
+    },
+    {
+      "id": "doc:topics/customers/customer-map.md::mentions::entity:franchise-operators::topics/customers/customer-map.md",
+      "from": "doc:topics/customers/customer-map.md",
+      "type": "mentions",
+      "to": "entity:franchise-operators",
+      "source": "topics/customers/customer-map.md"
+    },
+    {
+      "id": "doc:topics/customers/customer-map.md::mentions::entity:olo::topics/customers/customer-map.md",
+      "from": "doc:topics/customers/customer-map.md",
+      "type": "mentions",
+      "to": "entity:olo",
+      "source": "topics/customers/customer-map.md"
+    },
+    {
+      "id": "doc:topics/customers/customer-map.md::mentions::entity:operations-teams::topics/customers/customer-map.md",
+      "from": "doc:topics/customers/customer-map.md",
+      "type": "mentions",
+      "to": "entity:operations-teams",
+      "source": "topics/customers/customer-map.md"
+    },
+    {
+      "id": "doc:topics/customers/customer-map.md::mentions::entity:restaurant-guests::topics/customers/customer-map.md",
+      "from": "doc:topics/customers/customer-map.md",
+      "type": "mentions",
+      "to": "entity:restaurant-guests",
+      "source": "topics/customers/customer-map.md"
+    },
+    {
+      "id": "doc:topics/external-forces/dependencies.md::cites::source:https-www-olo-com-dispatch::topics/external-forces/dependencies.md",
+      "from": "doc:topics/external-forces/dependencies.md",
+      "type": "cites",
+      "to": "source:https-www-olo-com-dispatch",
+      "source": "topics/external-forces/dependencies.md"
+    },
+    {
+      "id": "doc:topics/external-forces/dependencies.md::cites::source:https-www-olo-com-pay::topics/external-forces/dependencies.md",
+      "from": "doc:topics/external-forces/dependencies.md",
+      "type": "cites",
+      "to": "source:https-www-olo-com-pay",
+      "source": "topics/external-forces/dependencies.md"
+    },
+    {
+      "id": "doc:topics/external-forces/dependencies.md::cites::source:https-www-thomabravo-com-press-releases-olo-enters-into-definitive-agreement-to-be-acquired-by-thoma-bravo::topics/external-forces/dependencies.md",
+      "from": "doc:topics/external-forces/dependencies.md",
+      "type": "cites",
+      "to": "source:https-www-thomabravo-com-press-releases-olo-enters-into-definitive-agreement-to-be-acquired-by-thoma-bravo",
+      "source": "topics/external-forces/dependencies.md"
+    },
+    {
+      "id": "doc:topics/external-forces/dependencies.md::has_topic::topic:ecosystem::topics/external-forces/dependencies.md",
+      "from": "doc:topics/external-forces/dependencies.md",
+      "type": "has_topic",
+      "to": "topic:ecosystem",
+      "source": "topics/external-forces/dependencies.md"
+    },
+    {
+      "id": "doc:topics/external-forces/dependencies.md::has_topic::topic:external-forces::topics/external-forces/dependencies.md",
+      "from": "doc:topics/external-forces/dependencies.md",
+      "type": "has_topic",
+      "to": "topic:external-forces",
+      "source": "topics/external-forces/dependencies.md"
+    },
+    {
+      "id": "doc:topics/external-forces/dependencies.md::mentions::entity:delivery-marketplaces::topics/external-forces/dependencies.md",
+      "from": "doc:topics/external-forces/dependencies.md",
+      "type": "mentions",
+      "to": "entity:delivery-marketplaces",
+      "source": "topics/external-forces/dependencies.md"
+    },
+    {
+      "id": "doc:topics/external-forces/dependencies.md::mentions::entity:franchise-complexity::topics/external-forces/dependencies.md",
+      "from": "doc:topics/external-forces/dependencies.md",
+      "type": "mentions",
+      "to": "entity:franchise-complexity",
+      "source": "topics/external-forces/dependencies.md"
+    },
+    {
+      "id": "doc:topics/external-forces/dependencies.md::mentions::entity:olo::topics/external-forces/dependencies.md",
+      "from": "doc:topics/external-forces/dependencies.md",
+      "type": "mentions",
+      "to": "entity:olo",
+      "source": "topics/external-forces/dependencies.md"
+    },
+    {
+      "id": "doc:topics/external-forces/dependencies.md::mentions::entity:payment-economics::topics/external-forces/dependencies.md",
+      "from": "doc:topics/external-forces/dependencies.md",
+      "type": "mentions",
+      "to": "entity:payment-economics",
+      "source": "topics/external-forces/dependencies.md"
+    },
+    {
+      "id": "doc:topics/external-forces/dependencies.md::mentions::entity:pos-integrations::topics/external-forces/dependencies.md",
+      "from": "doc:topics/external-forces/dependencies.md",
+      "type": "mentions",
+      "to": "entity:pos-integrations",
+      "source": "topics/external-forces/dependencies.md"
+    },
+    {
+      "id": "doc:topics/external-forces/dependencies.md::mentions::entity:private-equity-ownership::topics/external-forces/dependencies.md",
+      "from": "doc:topics/external-forces/dependencies.md",
+      "type": "mentions",
+      "to": "entity:private-equity-ownership",
+      "source": "topics/external-forces/dependencies.md"
+    },
+    {
+      "id": "doc:topics/external-forces/dependencies.md::mentions::entity:restaurant-digital-order-volume::topics/external-forces/dependencies.md",
+      "from": "doc:topics/external-forces/dependencies.md",
+      "type": "mentions",
+      "to": "entity:restaurant-digital-order-volume",
+      "source": "topics/external-forces/dependencies.md"
+    },
+    {
+      "id": "doc:topics/external-forces/dependencies.md::mentions::entity:restaurant-it-budgets::topics/external-forces/dependencies.md",
+      "from": "doc:topics/external-forces/dependencies.md",
+      "type": "mentions",
+      "to": "entity:restaurant-it-budgets",
+      "source": "topics/external-forces/dependencies.md"
+    },
+    {
+      "id": "doc:topics/inbox/2026-06-07-2d0ec1c066.md::cites::source:https-www-olo-com-engage::topics/inbox/2026-06-07-2d0ec1c066.md",
+      "from": "doc:topics/inbox/2026-06-07-2d0ec1c066.md",
+      "type": "cites",
+      "to": "source:https-www-olo-com-engage",
+      "source": "topics/inbox/2026-06-07-2d0ec1c066.md"
+    },
+    {
+      "id": "doc:topics/inbox/2026-06-07-2d0ec1c066.md::has_topic::topic:products::topics/inbox/2026-06-07-2d0ec1c066.md",
+      "from": "doc:topics/inbox/2026-06-07-2d0ec1c066.md",
+      "type": "has_topic",
+      "to": "topic:products",
+      "source": "topics/inbox/2026-06-07-2d0ec1c066.md"
+    },
+    {
+      "id": "doc:topics/inbox/2026-06-07-2d0ec1c066.md::mentions::entity:olo-engage::topics/inbox/2026-06-07-2d0ec1c066.md",
+      "from": "doc:topics/inbox/2026-06-07-2d0ec1c066.md",
+      "type": "mentions",
+      "to": "entity:olo-engage",
+      "source": "topics/inbox/2026-06-07-2d0ec1c066.md"
+    },
+    {
+      "id": "doc:topics/inbox/2026-06-07-399ce88063.md::cites::source:https-www-olo-com-ordering::topics/inbox/2026-06-07-399ce88063.md",
+      "from": "doc:topics/inbox/2026-06-07-399ce88063.md",
+      "type": "cites",
+      "to": "source:https-www-olo-com-ordering",
+      "source": "topics/inbox/2026-06-07-399ce88063.md"
+    },
+    {
+      "id": "doc:topics/inbox/2026-06-07-399ce88063.md::has_topic::topic:products::topics/inbox/2026-06-07-399ce88063.md",
+      "from": "doc:topics/inbox/2026-06-07-399ce88063.md",
+      "type": "has_topic",
+      "to": "topic:products",
+      "source": "topics/inbox/2026-06-07-399ce88063.md"
+    },
+    {
+      "id": "doc:topics/inbox/2026-06-07-399ce88063.md::mentions::entity:ordering::topics/inbox/2026-06-07-399ce88063.md",
+      "from": "doc:topics/inbox/2026-06-07-399ce88063.md",
+      "type": "mentions",
+      "to": "entity:ordering",
+      "source": "topics/inbox/2026-06-07-399ce88063.md"
+    },
+    {
+      "id": "doc:topics/inbox/2026-06-07-4749e172b3.md::cites::source:https-www-olo-com-dispatch::topics/inbox/2026-06-07-4749e172b3.md",
+      "from": "doc:topics/inbox/2026-06-07-4749e172b3.md",
+      "type": "cites",
+      "to": "source:https-www-olo-com-dispatch",
+      "source": "topics/inbox/2026-06-07-4749e172b3.md"
+    },
+    {
+      "id": "doc:topics/inbox/2026-06-07-4749e172b3.md::has_topic::topic:products::topics/inbox/2026-06-07-4749e172b3.md",
+      "from": "doc:topics/inbox/2026-06-07-4749e172b3.md",
+      "type": "has_topic",
+      "to": "topic:products",
+      "source": "topics/inbox/2026-06-07-4749e172b3.md"
+    },
+    {
+      "id": "doc:topics/inbox/2026-06-07-4749e172b3.md::mentions::entity:olo-dispatch::topics/inbox/2026-06-07-4749e172b3.md",
+      "from": "doc:topics/inbox/2026-06-07-4749e172b3.md",
+      "type": "mentions",
+      "to": "entity:olo-dispatch",
+      "source": "topics/inbox/2026-06-07-4749e172b3.md"
+    },
+    {
+      "id": "doc:topics/inbox/2026-06-07-805e1d9f1a.md::cites::source:https-www-olo-com::topics/inbox/2026-06-07-805e1d9f1a.md",
+      "from": "doc:topics/inbox/2026-06-07-805e1d9f1a.md",
+      "type": "cites",
+      "to": "source:https-www-olo-com",
+      "source": "topics/inbox/2026-06-07-805e1d9f1a.md"
+    },
+    {
+      "id": "doc:topics/inbox/2026-06-07-805e1d9f1a.md::has_topic::topic:company-overview::topics/inbox/2026-06-07-805e1d9f1a.md",
+      "from": "doc:topics/inbox/2026-06-07-805e1d9f1a.md",
+      "type": "has_topic",
+      "to": "topic:company-overview",
+      "source": "topics/inbox/2026-06-07-805e1d9f1a.md"
+    },
+    {
+      "id": "doc:topics/inbox/2026-06-07-805e1d9f1a.md::mentions::entity:olo::topics/inbox/2026-06-07-805e1d9f1a.md",
+      "from": "doc:topics/inbox/2026-06-07-805e1d9f1a.md",
+      "type": "mentions",
+      "to": "entity:olo",
+      "source": "topics/inbox/2026-06-07-805e1d9f1a.md"
+    },
+    {
+      "id": "doc:topics/inbox/2026-06-07-e5a67330d1.md::cites::source:https-www-olo-com-pay::topics/inbox/2026-06-07-e5a67330d1.md",
+      "from": "doc:topics/inbox/2026-06-07-e5a67330d1.md",
+      "type": "cites",
+      "to": "source:https-www-olo-com-pay",
+      "source": "topics/inbox/2026-06-07-e5a67330d1.md"
+    },
+    {
+      "id": "doc:topics/inbox/2026-06-07-e5a67330d1.md::has_topic::topic:products::topics/inbox/2026-06-07-e5a67330d1.md",
+      "from": "doc:topics/inbox/2026-06-07-e5a67330d1.md",
+      "type": "has_topic",
+      "to": "topic:products",
+      "source": "topics/inbox/2026-06-07-e5a67330d1.md"
+    },
+    {
+      "id": "doc:topics/inbox/2026-06-07-e5a67330d1.md::mentions::entity:olo-pay::topics/inbox/2026-06-07-e5a67330d1.md",
+      "from": "doc:topics/inbox/2026-06-07-e5a67330d1.md",
+      "type": "mentions",
+      "to": "entity:olo-pay",
+      "source": "topics/inbox/2026-06-07-e5a67330d1.md"
+    },
+    {
+      "id": "doc:topics/market/competitors.md::has_topic::topic:competitors::topics/market/competitors.md",
+      "from": "doc:topics/market/competitors.md",
+      "type": "has_topic",
+      "to": "topic:competitors",
+      "source": "topics/market/competitors.md"
+    },
+    {
+      "id": "doc:topics/market/competitors.md::has_topic::topic:market-map::topics/market/competitors.md",
+      "from": "doc:topics/market/competitors.md",
+      "type": "has_topic",
+      "to": "topic:market-map",
+      "source": "topics/market/competitors.md"
+    },
+    {
+      "id": "doc:topics/market/competitors.md::mentions::entity:chownow::topics/market/competitors.md",
+      "from": "doc:topics/market/competitors.md",
+      "type": "mentions",
+      "to": "entity:chownow",
+      "source": "topics/market/competitors.md"
+    },
+    {
+      "id": "doc:topics/market/competitors.md::mentions::entity:doordash-storefront::topics/market/competitors.md",
+      "from": "doc:topics/market/competitors.md",
+      "type": "mentions",
+      "to": "entity:doordash-storefront",
+      "source": "topics/market/competitors.md"
+    },
+    {
+      "id": "doc:topics/market/competitors.md::mentions::entity:lunchbox::topics/market/competitors.md",
+      "from": "doc:topics/market/competitors.md",
+      "type": "mentions",
+      "to": "entity:lunchbox",
+      "source": "topics/market/competitors.md"
+    },
+    {
+      "id": "doc:topics/market/competitors.md::mentions::entity:ncr-voyix::topics/market/competitors.md",
+      "from": "doc:topics/market/competitors.md",
+      "type": "mentions",
+      "to": "entity:ncr-voyix",
+      "source": "topics/market/competitors.md"
+    },
+    {
+      "id": "doc:topics/market/competitors.md::mentions::entity:olo::topics/market/competitors.md",
+      "from": "doc:topics/market/competitors.md",
+      "type": "mentions",
+      "to": "entity:olo",
+      "source": "topics/market/competitors.md"
+    },
+    {
+      "id": "doc:topics/market/competitors.md::mentions::entity:par-technology::topics/market/competitors.md",
+      "from": "doc:topics/market/competitors.md",
+      "type": "mentions",
+      "to": "entity:par-technology",
+      "source": "topics/market/competitors.md"
+    },
+    {
+      "id": "doc:topics/market/competitors.md::mentions::entity:popmenu::topics/market/competitors.md",
+      "from": "doc:topics/market/competitors.md",
+      "type": "mentions",
+      "to": "entity:popmenu",
+      "source": "topics/market/competitors.md"
+    },
+    {
+      "id": "doc:topics/market/competitors.md::mentions::entity:square::topics/market/competitors.md",
+      "from": "doc:topics/market/competitors.md",
+      "type": "mentions",
+      "to": "entity:square",
+      "source": "topics/market/competitors.md"
+    },
+    {
+      "id": "doc:topics/market/competitors.md::mentions::entity:toast::topics/market/competitors.md",
+      "from": "doc:topics/market/competitors.md",
+      "type": "mentions",
+      "to": "entity:toast",
+      "source": "topics/market/competitors.md"
+    },
+    {
+      "id": "doc:topics/products/dispatch.md::cites::source:https-www-olo-com-dispatch::topics/products/dispatch.md",
+      "from": "doc:topics/products/dispatch.md",
+      "type": "cites",
+      "to": "source:https-www-olo-com-dispatch",
+      "source": "topics/products/dispatch.md"
+    },
+    {
+      "id": "doc:topics/products/dispatch.md::depends_on::source:olo-dispatch::sources/dependencies.yaml",
+      "from": "doc:topics/products/dispatch.md",
+      "type": "depends_on",
+      "to": "source:olo-dispatch",
+      "source": "sources/dependencies.yaml",
+      "document": "doc:topics/products/dispatch.md",
+      "role": "product_page",
+      "refresh": "manual"
+    },
+    {
+      "id": "doc:topics/products/dispatch.md::has_topic::topic:delivery::topics/products/dispatch.md",
+      "from": "doc:topics/products/dispatch.md",
+      "type": "has_topic",
+      "to": "topic:delivery",
+      "source": "topics/products/dispatch.md"
+    },
+    {
+      "id": "doc:topics/products/dispatch.md::has_topic::topic:dispatch::topics/products/dispatch.md",
+      "from": "doc:topics/products/dispatch.md",
+      "type": "has_topic",
+      "to": "topic:dispatch",
+      "source": "topics/products/dispatch.md"
+    },
+    {
+      "id": "doc:topics/products/dispatch.md::has_topic::topic:products::topics/products/dispatch.md",
+      "from": "doc:topics/products/dispatch.md",
+      "type": "has_topic",
+      "to": "topic:products",
+      "source": "topics/products/dispatch.md"
+    },
+    {
+      "id": "doc:topics/products/dispatch.md::mentions::entity:delivery-orchestration::topics/products/dispatch.md",
+      "from": "doc:topics/products/dispatch.md",
+      "type": "mentions",
+      "to": "entity:delivery-orchestration",
+      "source": "topics/products/dispatch.md"
+    },
+    {
+      "id": "doc:topics/products/dispatch.md::mentions::entity:direct-consumer-relationships::topics/products/dispatch.md",
+      "from": "doc:topics/products/dispatch.md",
+      "type": "mentions",
+      "to": "entity:direct-consumer-relationships",
+      "source": "topics/products/dispatch.md"
+    },
+    {
+      "id": "doc:topics/products/dispatch.md::mentions::entity:olo-dispatch::topics/products/dispatch.md",
+      "from": "doc:topics/products/dispatch.md",
+      "type": "mentions",
+      "to": "entity:olo-dispatch",
+      "source": "topics/products/dispatch.md"
+    },
+    {
+      "id": "doc:topics/products/dispatch.md::mentions::entity:olo::topics/products/dispatch.md",
+      "from": "doc:topics/products/dispatch.md",
+      "type": "mentions",
+      "to": "entity:olo",
+      "source": "topics/products/dispatch.md"
+    },
+    {
+      "id": "doc:topics/products/dispatch.md::mentions::entity:third-party-delivery-providers::topics/products/dispatch.md",
+      "from": "doc:topics/products/dispatch.md",
+      "type": "mentions",
+      "to": "entity:third-party-delivery-providers",
+      "source": "topics/products/dispatch.md"
+    },
+    {
+      "id": "doc:topics/products/engage.md::cites::source:https-www-olo-com-engage::topics/products/engage.md",
+      "from": "doc:topics/products/engage.md",
+      "type": "cites",
+      "to": "source:https-www-olo-com-engage",
+      "source": "topics/products/engage.md"
+    },
+    {
+      "id": "doc:topics/products/engage.md::cites::source:https-www-olo-com-restaurant-marketing-guide::topics/products/engage.md",
+      "from": "doc:topics/products/engage.md",
+      "type": "cites",
+      "to": "source:https-www-olo-com-restaurant-marketing-guide",
+      "source": "topics/products/engage.md"
+    },
+    {
+      "id": "doc:topics/products/engage.md::depends_on::source:olo-engage::sources/dependencies.yaml",
+      "from": "doc:topics/products/engage.md",
+      "type": "depends_on",
+      "to": "source:olo-engage",
+      "source": "sources/dependencies.yaml",
+      "document": "doc:topics/products/engage.md",
+      "role": "product_page",
+      "refresh": "manual"
+    },
+    {
+      "id": "doc:topics/products/engage.md::depends_on::source:olo-marketing-guide::sources/dependencies.yaml",
+      "from": "doc:topics/products/engage.md",
+      "type": "depends_on",
+      "to": "source:olo-marketing-guide",
+      "source": "sources/dependencies.yaml",
+      "document": "doc:topics/products/engage.md",
+      "role": "supporting_material",
+      "refresh": "manual"
+    },
+    {
+      "id": "doc:topics/products/engage.md::has_topic::topic:guest-data::topics/products/engage.md",
+      "from": "doc:topics/products/engage.md",
+      "type": "has_topic",
+      "to": "topic:guest-data",
+      "source": "topics/products/engage.md"
+    },
+    {
+      "id": "doc:topics/products/engage.md::has_topic::topic:marketing::topics/products/engage.md",
+      "from": "doc:topics/products/engage.md",
+      "type": "has_topic",
+      "to": "topic:marketing",
+      "source": "topics/products/engage.md"
+    },
+    {
+      "id": "doc:topics/products/engage.md::has_topic::topic:products::topics/products/engage.md",
+      "from": "doc:topics/products/engage.md",
+      "type": "has_topic",
+      "to": "topic:products",
+      "source": "topics/products/engage.md"
+    },
+    {
+      "id": "doc:topics/products/engage.md::mentions::entity:guest-data::topics/products/engage.md",
+      "from": "doc:topics/products/engage.md",
+      "type": "mentions",
+      "to": "entity:guest-data",
+      "source": "topics/products/engage.md"
+    },
+    {
+      "id": "doc:topics/products/engage.md::mentions::entity:guest-lifetime-value::topics/products/engage.md",
+      "from": "doc:topics/products/engage.md",
+      "type": "mentions",
+      "to": "entity:guest-lifetime-value",
+      "source": "topics/products/engage.md"
+    },
+    {
+      "id": "doc:topics/products/engage.md::mentions::entity:olo-engage::topics/products/engage.md",
+      "from": "doc:topics/products/engage.md",
+      "type": "mentions",
+      "to": "entity:olo-engage",
+      "source": "topics/products/engage.md"
+    },
+    {
+      "id": "doc:topics/products/engage.md::mentions::entity:olo::topics/products/engage.md",
+      "from": "doc:topics/products/engage.md",
+      "type": "mentions",
+      "to": "entity:olo",
+      "source": "topics/products/engage.md"
+    },
+    {
+      "id": "doc:topics/products/engage.md::mentions::entity:reputation-management::topics/products/engage.md",
+      "from": "doc:topics/products/engage.md",
+      "type": "mentions",
+      "to": "entity:reputation-management",
+      "source": "topics/products/engage.md"
+    },
+    {
+      "id": "doc:topics/products/engage.md::mentions::entity:retention-marketing::topics/products/engage.md",
+      "from": "doc:topics/products/engage.md",
+      "type": "mentions",
+      "to": "entity:retention-marketing",
+      "source": "topics/products/engage.md"
+    },
+    {
+      "id": "doc:topics/products/ordering.md::cites::source:https-www-olo-com-ordering::topics/products/ordering.md",
+      "from": "doc:topics/products/ordering.md",
+      "type": "cites",
+      "to": "source:https-www-olo-com-ordering",
+      "source": "topics/products/ordering.md"
+    },
+    {
+      "id": "doc:topics/products/ordering.md::depends_on::source:olo-ordering::sources/dependencies.yaml",
+      "from": "doc:topics/products/ordering.md",
+      "type": "depends_on",
+      "to": "source:olo-ordering",
+      "source": "sources/dependencies.yaml",
+      "document": "doc:topics/products/ordering.md",
+      "role": "product_page",
+      "refresh": "manual"
+    },
+    {
+      "id": "doc:topics/products/ordering.md::has_topic::topic:ordering::topics/products/ordering.md",
+      "from": "doc:topics/products/ordering.md",
+      "type": "has_topic",
+      "to": "topic:ordering",
+      "source": "topics/products/ordering.md"
+    },
+    {
+      "id": "doc:topics/products/ordering.md::has_topic::topic:products::topics/products/ordering.md",
+      "from": "doc:topics/products/ordering.md",
+      "type": "has_topic",
+      "to": "topic:products",
+      "source": "topics/products/ordering.md"
+    },
+    {
+      "id": "doc:topics/products/ordering.md::mentions::entity:digital-ordering::topics/products/ordering.md",
+      "from": "doc:topics/products/ordering.md",
+      "type": "mentions",
+      "to": "entity:digital-ordering",
+      "source": "topics/products/ordering.md"
+    },
+    {
+      "id": "doc:topics/products/ordering.md::mentions::entity:direct-digital-sales::topics/products/ordering.md",
+      "from": "doc:topics/products/ordering.md",
+      "type": "mentions",
+      "to": "entity:direct-digital-sales",
+      "source": "topics/products/ordering.md"
+    },
+    {
+      "id": "doc:topics/products/ordering.md::mentions::entity:olo-ordering::topics/products/ordering.md",
+      "from": "doc:topics/products/ordering.md",
+      "type": "mentions",
+      "to": "entity:olo-ordering",
+      "source": "topics/products/ordering.md"
+    },
+    {
+      "id": "doc:topics/products/ordering.md::mentions::entity:olo::topics/products/ordering.md",
+      "from": "doc:topics/products/ordering.md",
+      "type": "mentions",
+      "to": "entity:olo",
+      "source": "topics/products/ordering.md"
+    },
+    {
+      "id": "doc:topics/products/ordering.md::mentions::entity:restaurant-brands::topics/products/ordering.md",
+      "from": "doc:topics/products/ordering.md",
+      "type": "mentions",
+      "to": "entity:restaurant-brands",
+      "source": "topics/products/ordering.md"
+    },
+    {
+      "id": "doc:topics/products/payments.md::cites::source:https-www-olo-com-pay::topics/products/payments.md",
+      "from": "doc:topics/products/payments.md",
+      "type": "cites",
+      "to": "source:https-www-olo-com-pay",
+      "source": "topics/products/payments.md"
+    },
+    {
+      "id": "doc:topics/products/payments.md::depends_on::source:olo-pay::sources/dependencies.yaml",
+      "from": "doc:topics/products/payments.md",
+      "type": "depends_on",
+      "to": "source:olo-pay",
+      "source": "sources/dependencies.yaml",
+      "document": "doc:topics/products/payments.md",
+      "role": "product_page",
+      "refresh": "manual"
+    },
+    {
+      "id": "doc:topics/products/payments.md::has_topic::topic:fraud::topics/products/payments.md",
+      "from": "doc:topics/products/payments.md",
+      "type": "has_topic",
+      "to": "topic:fraud",
+      "source": "topics/products/payments.md"
+    },
+    {
+      "id": "doc:topics/products/payments.md::has_topic::topic:payments::topics/products/payments.md",
+      "from": "doc:topics/products/payments.md",
+      "type": "has_topic",
+      "to": "topic:payments",
+      "source": "topics/products/payments.md"
+    },
+    {
+      "id": "doc:topics/products/payments.md::has_topic::topic:products::topics/products/payments.md",
+      "from": "doc:topics/products/payments.md",
+      "type": "has_topic",
+      "to": "topic:products",
+      "source": "topics/products/payments.md"
+    },
+    {
+      "id": "doc:topics/products/payments.md::mentions::entity:authorization-rate::topics/products/payments.md",
+      "from": "doc:topics/products/payments.md",
+      "type": "mentions",
+      "to": "entity:authorization-rate",
+      "source": "topics/products/payments.md"
+    },
+    {
+      "id": "doc:topics/products/payments.md::mentions::entity:digital-payments::topics/products/payments.md",
+      "from": "doc:topics/products/payments.md",
+      "type": "mentions",
+      "to": "entity:digital-payments",
+      "source": "topics/products/payments.md"
+    },
+    {
+      "id": "doc:topics/products/payments.md::mentions::entity:fraud-prevention::topics/products/payments.md",
+      "from": "doc:topics/products/payments.md",
+      "type": "mentions",
+      "to": "entity:fraud-prevention",
+      "source": "topics/products/payments.md"
+    },
+    {
+      "id": "doc:topics/products/payments.md::mentions::entity:olo-pay::topics/products/payments.md",
+      "from": "doc:topics/products/payments.md",
+      "type": "mentions",
+      "to": "entity:olo-pay",
+      "source": "topics/products/payments.md"
+    },
+    {
+      "id": "doc:topics/products/payments.md::mentions::entity:olo::topics/products/payments.md",
+      "from": "doc:topics/products/payments.md",
+      "type": "mentions",
+      "to": "entity:olo",
+      "source": "topics/products/payments.md"
+    },
+    {
+      "id": "doc:topics/reports/confidence-map.md::has_topic::topic:claims::topics/reports/confidence-map.md",
+      "from": "doc:topics/reports/confidence-map.md",
+      "type": "has_topic",
+      "to": "topic:claims",
+      "source": "topics/reports/confidence-map.md"
+    },
+    {
+      "id": "doc:topics/reports/confidence-map.md::has_topic::topic:confidence::topics/reports/confidence-map.md",
+      "from": "doc:topics/reports/confidence-map.md",
+      "type": "has_topic",
+      "to": "topic:confidence",
+      "source": "topics/reports/confidence-map.md"
+    },
+    {
+      "id": "doc:topics/reports/confidence-map.md::mentions::entity:high-confidence-claims::topics/reports/confidence-map.md",
+      "from": "doc:topics/reports/confidence-map.md",
+      "type": "mentions",
+      "to": "entity:high-confidence-claims",
+      "source": "topics/reports/confidence-map.md"
+    },
+    {
+      "id": "doc:topics/reports/confidence-map.md::mentions::entity:medium-confidence-claims::topics/reports/confidence-map.md",
+      "from": "doc:topics/reports/confidence-map.md",
+      "type": "mentions",
+      "to": "entity:medium-confidence-claims",
+      "source": "topics/reports/confidence-map.md"
+    },
+    {
+      "id": "doc:topics/reports/confidence-map.md::mentions::entity:olo::topics/reports/confidence-map.md",
+      "from": "doc:topics/reports/confidence-map.md",
+      "type": "mentions",
+      "to": "entity:olo",
+      "source": "topics/reports/confidence-map.md"
+    },
+    {
+      "id": "doc:topics/reports/confidence-map.md::mentions::entity:unknowns::topics/reports/confidence-map.md",
+      "from": "doc:topics/reports/confidence-map.md",
+      "type": "mentions",
+      "to": "entity:unknowns",
+      "source": "topics/reports/confidence-map.md"
+    },
+    {
+      "id": "doc:topics/reports/krail-package-test-results.md::has_topic::topic:failures::topics/reports/krail-package-test-results.md",
+      "from": "doc:topics/reports/krail-package-test-results.md",
+      "type": "has_topic",
+      "to": "topic:failures",
+      "source": "topics/reports/krail-package-test-results.md"
+    },
+    {
+      "id": "doc:topics/reports/krail-package-test-results.md::has_topic::topic:krail::topics/reports/krail-package-test-results.md",
+      "from": "doc:topics/reports/krail-package-test-results.md",
+      "type": "has_topic",
+      "to": "topic:krail",
+      "source": "topics/reports/krail-package-test-results.md"
+    },
+    {
+      "id": "doc:topics/reports/krail-package-test-results.md::has_topic::topic:package-testing::topics/reports/krail-package-test-results.md",
+      "from": "doc:topics/reports/krail-package-test-results.md",
+      "type": "has_topic",
+      "to": "topic:package-testing",
+      "source": "topics/reports/krail-package-test-results.md"
+    },
+    {
+      "id": "doc:topics/reports/krail-package-test-results.md::mentions::entity:company-brain-pack::topics/reports/krail-package-test-results.md",
+      "from": "doc:topics/reports/krail-package-test-results.md",
+      "type": "mentions",
+      "to": "entity:company-brain-pack",
+      "source": "topics/reports/krail-package-test-results.md"
+    },
+    {
+      "id": "doc:topics/reports/krail-package-test-results.md::mentions::entity:deterministic-artifacts::topics/reports/krail-package-test-results.md",
+      "from": "doc:topics/reports/krail-package-test-results.md",
+      "type": "mentions",
+      "to": "entity:deterministic-artifacts",
+      "source": "topics/reports/krail-package-test-results.md"
+    },
+    {
+      "id": "doc:topics/reports/krail-package-test-results.md::mentions::entity:graph-build::topics/reports/krail-package-test-results.md",
+      "from": "doc:topics/reports/krail-package-test-results.md",
+      "type": "mentions",
+      "to": "entity:graph-build",
+      "source": "topics/reports/krail-package-test-results.md"
+    },
+    {
+      "id": "doc:topics/reports/krail-package-test-results.md::mentions::entity:krail::topics/reports/krail-package-test-results.md",
+      "from": "doc:topics/reports/krail-package-test-results.md",
+      "type": "mentions",
+      "to": "entity:krail",
+      "source": "topics/reports/krail-package-test-results.md"
+    },
+    {
+      "id": "doc:topics/reports/krail-package-test-results.md::mentions::entity:verification-script::topics/reports/krail-package-test-results.md",
+      "from": "doc:topics/reports/krail-package-test-results.md",
+      "type": "mentions",
+      "to": "entity:verification-script",
+      "source": "topics/reports/krail-package-test-results.md"
+    },
+    {
+      "id": "entity:2005-founding::starts::entity:olo::topics/business/timeline.md",
+      "from": "entity:2005-founding",
+      "type": "starts",
+      "to": "entity:olo",
+      "source": "topics/business/timeline.md",
+      "document": "doc:topics/business/timeline.md"
+    },
+    {
+      "id": "entity:budget-pressure-at-restaurant-brands::threatens::entity:olo::topics/business/risks.md",
+      "from": "entity:budget-pressure-at-restaurant-brands",
+      "type": "threatens",
+      "to": "entity:olo",
+      "source": "topics/business/risks.md",
+      "document": "doc:topics/business/risks.md"
+    },
+    {
+      "id": "entity:company-brain-pack::fails_at::entity:graph-build::topics/reports/krail-package-test-results.md",
+      "from": "entity:company-brain-pack",
+      "type": "fails_at",
+      "to": "entity:graph-build",
+      "source": "topics/reports/krail-package-test-results.md",
+      "document": "doc:topics/reports/krail-package-test-results.md"
+    },
+    {
+      "id": "entity:company-brain-pack::fails_at::entity:verification-script::topics/reports/krail-package-test-results.md",
+      "from": "entity:company-brain-pack",
+      "type": "fails_at",
+      "to": "entity:verification-script",
+      "source": "topics/reports/krail-package-test-results.md",
+      "document": "doc:topics/reports/krail-package-test-results.md"
+    },
+    {
+      "id": "entity:company-brain::models::entity:olo::research_plan/current_plan.md",
+      "from": "entity:company-brain",
+      "type": "models",
+      "to": "entity:olo",
+      "source": "research_plan/current_plan.md",
+      "document": "doc:research_plan/current_plan.md"
+    },
+    {
+      "id": "entity:delivery-marketplaces::affects::entity:olo::topics/external-forces/dependencies.md",
+      "from": "entity:delivery-marketplaces",
+      "type": "affects",
+      "to": "entity:olo",
+      "source": "topics/external-forces/dependencies.md",
+      "document": "doc:topics/external-forces/dependencies.md"
+    },
+    {
+      "id": "entity:digital-teams::buy_for::entity:enterprise-restaurant-brands::topics/customers/customer-map.md",
+      "from": "entity:digital-teams",
+      "type": "buy_for",
+      "to": "entity:enterprise-restaurant-brands",
+      "source": "topics/customers/customer-map.md",
+      "document": "doc:topics/customers/customer-map.md"
+    },
+    {
+      "id": "entity:disclosure-decline::threatens::entity:olo::topics/business/risks.md",
+      "from": "entity:disclosure-decline",
+      "type": "threatens",
+      "to": "entity:olo",
+      "source": "topics/business/risks.md",
+      "document": "doc:topics/business/risks.md"
+    },
+    {
+      "id": "entity:franchise-complexity::affects::entity:olo::topics/external-forces/dependencies.md",
+      "from": "entity:franchise-complexity",
+      "type": "affects",
+      "to": "entity:olo",
+      "source": "topics/external-forces/dependencies.md",
+      "document": "doc:topics/external-forces/dependencies.md"
+    },
+    {
+      "id": "entity:integration-fragility::threatens::entity:olo::topics/business/risks.md",
+      "from": "entity:integration-fragility",
+      "type": "threatens",
+      "to": "entity:olo",
+      "source": "topics/business/risks.md",
+      "document": "doc:topics/business/risks.md"
+    },
+    {
+      "id": "entity:krail::includes::entity:company-brain-pack::topics/reports/krail-package-test-results.md",
+      "from": "entity:krail",
+      "type": "includes",
+      "to": "entity:company-brain-pack",
+      "source": "topics/reports/krail-package-test-results.md",
+      "document": "doc:topics/reports/krail-package-test-results.md"
+    },
+    {
+      "id": "entity:marketplace-disintermediation::threatens::entity:olo::topics/business/risks.md",
+      "from": "entity:marketplace-disintermediation",
+      "type": "threatens",
+      "to": "entity:olo",
+      "source": "topics/business/risks.md",
+      "document": "doc:topics/business/risks.md"
+    },
+    {
+      "id": "entity:noah-glass::leads::entity:olo::topics/brief.md",
+      "from": "entity:noah-glass",
+      "type": "leads",
+      "to": "entity:olo",
+      "source": "topics/brief.md",
+      "document": "doc:topics/brief.md"
+    },
+    {
+      "id": "entity:olo-dispatch::coordinates_with::entity:third-party-delivery-providers::topics/products/dispatch.md",
+      "from": "entity:olo-dispatch",
+      "type": "coordinates_with",
+      "to": "entity:third-party-delivery-providers",
+      "source": "topics/products/dispatch.md",
+      "document": "doc:topics/products/dispatch.md"
+    },
+    {
+      "id": "entity:olo-dispatch::protects::entity:direct-consumer-relationships::topics/products/dispatch.md",
+      "from": "entity:olo-dispatch",
+      "type": "protects",
+      "to": "entity:direct-consumer-relationships",
+      "source": "topics/products/dispatch.md",
+      "document": "doc:topics/products/dispatch.md"
+    },
+    {
+      "id": "entity:olo-engage::includes::entity:reputation-management::topics/products/engage.md",
+      "from": "entity:olo-engage",
+      "type": "includes",
+      "to": "entity:reputation-management",
+      "source": "topics/products/engage.md",
+      "document": "doc:topics/products/engage.md"
+    },
+    {
+      "id": "entity:olo-engage::supports::entity:retention-marketing::topics/products/engage.md",
+      "from": "entity:olo-engage",
+      "type": "supports",
+      "to": "entity:retention-marketing",
+      "source": "topics/products/engage.md",
+      "document": "doc:topics/products/engage.md"
+    },
+    {
+      "id": "entity:olo-engage::surfaces::entity:guest-lifetime-value::topics/products/engage.md",
+      "from": "entity:olo-engage",
+      "type": "surfaces",
+      "to": "entity:guest-lifetime-value",
+      "source": "topics/products/engage.md",
+      "document": "doc:topics/products/engage.md"
+    },
+    {
+      "id": "entity:olo-engage::unifies::entity:guest-data::topics/products/engage.md",
+      "from": "entity:olo-engage",
+      "type": "unifies",
+      "to": "entity:guest-data",
+      "source": "topics/products/engage.md",
+      "document": "doc:topics/products/engage.md"
+    },
+    {
+      "id": "entity:olo-ordering::drives::entity:direct-digital-sales::topics/products/ordering.md",
+      "from": "entity:olo-ordering",
+      "type": "drives",
+      "to": "entity:direct-digital-sales",
+      "source": "topics/products/ordering.md",
+      "document": "doc:topics/products/ordering.md"
+    },
+    {
+      "id": "entity:olo-ordering::serves::entity:restaurant-brands::topics/products/ordering.md",
+      "from": "entity:olo-ordering",
+      "type": "serves",
+      "to": "entity:restaurant-brands",
+      "source": "topics/products/ordering.md",
+      "document": "doc:topics/products/ordering.md"
+    },
+    {
+      "id": "entity:olo-pay::belongs_to::entity:digital-payments::topics/products/payments.md",
+      "from": "entity:olo-pay",
+      "type": "belongs_to",
+      "to": "entity:digital-payments",
+      "source": "topics/products/payments.md",
+      "document": "doc:topics/products/payments.md"
+    },
+    {
+      "id": "entity:olo-pay::expands::entity:payment-revenue::topics/business/business-model.md",
+      "from": "entity:olo-pay",
+      "type": "expands",
+      "to": "entity:payment-revenue",
+      "source": "topics/business/business-model.md",
+      "document": "doc:topics/business/business-model.md"
+    },
+    {
+      "id": "entity:olo-pay::improves::entity:fraud-prevention::topics/products/payments.md",
+      "from": "entity:olo-pay",
+      "type": "improves",
+      "to": "entity:fraud-prevention",
+      "source": "topics/products/payments.md",
+      "document": "doc:topics/products/payments.md"
+    },
+    {
+      "id": "entity:olo-pay::influences::entity:authorization-rate::topics/products/payments.md",
+      "from": "entity:olo-pay",
+      "type": "influences",
+      "to": "entity:authorization-rate",
+      "source": "topics/products/payments.md",
+      "document": "doc:topics/products/payments.md"
+    },
+    {
+      "id": "entity:olo::affects::entity:restaurant-guests::topics/business/overview.md",
+      "from": "entity:olo",
+      "type": "affects",
+      "to": "entity:restaurant-guests",
+      "source": "topics/business/overview.md",
+      "document": "doc:topics/business/overview.md"
+    },
+    {
+      "id": "entity:olo::competes_with::entity:chownow::topics/market/competitors.md",
+      "from": "entity:olo",
+      "type": "competes_with",
+      "to": "entity:chownow",
+      "source": "topics/market/competitors.md",
+      "document": "doc:topics/market/competitors.md"
+    },
+    {
+      "id": "entity:olo::competes_with::entity:doordash-storefront::topics/market/competitors.md",
+      "from": "entity:olo",
+      "type": "competes_with",
+      "to": "entity:doordash-storefront",
+      "source": "topics/market/competitors.md",
+      "document": "doc:topics/market/competitors.md"
+    },
+    {
+      "id": "entity:olo::competes_with::entity:lunchbox::topics/market/competitors.md",
+      "from": "entity:olo",
+      "type": "competes_with",
+      "to": "entity:lunchbox",
+      "source": "topics/market/competitors.md",
+      "document": "doc:topics/market/competitors.md"
+    },
+    {
+      "id": "entity:olo::competes_with::entity:ncr-voyix::topics/market/competitors.md",
+      "from": "entity:olo",
+      "type": "competes_with",
+      "to": "entity:ncr-voyix",
+      "source": "topics/market/competitors.md",
+      "document": "doc:topics/market/competitors.md"
+    },
+    {
+      "id": "entity:olo::competes_with::entity:par-technology::topics/market/competitors.md",
+      "from": "entity:olo",
+      "type": "competes_with",
+      "to": "entity:par-technology",
+      "source": "topics/market/competitors.md",
+      "document": "doc:topics/market/competitors.md"
+    },
+    {
+      "id": "entity:olo::competes_with::entity:popmenu::topics/market/competitors.md",
+      "from": "entity:olo",
+      "type": "competes_with",
+      "to": "entity:popmenu",
+      "source": "topics/market/competitors.md",
+      "document": "doc:topics/market/competitors.md"
+    },
+    {
+      "id": "entity:olo::competes_with::entity:square::topics/market/competitors.md",
+      "from": "entity:olo",
+      "type": "competes_with",
+      "to": "entity:square",
+      "source": "topics/market/competitors.md",
+      "document": "doc:topics/market/competitors.md"
+    },
+    {
+      "id": "entity:olo::competes_with::entity:toast::topics/market/competitors.md",
+      "from": "entity:olo",
+      "type": "competes_with",
+      "to": "entity:toast",
+      "source": "topics/market/competitors.md",
+      "document": "doc:topics/market/competitors.md"
+    },
+    {
+      "id": "entity:olo::depends_on::entity:restaurant-digital-order-volume::topics/business/business-model.md",
+      "from": "entity:olo",
+      "type": "depends_on",
+      "to": "entity:restaurant-digital-order-volume",
+      "source": "topics/business/business-model.md",
+      "document": "doc:topics/business/business-model.md"
+    },
+    {
+      "id": "entity:olo::earns_from::entity:payment-revenue::topics/business/business-model.md",
+      "from": "entity:olo",
+      "type": "earns_from",
+      "to": "entity:payment-revenue",
+      "source": "topics/business/business-model.md",
+      "document": "doc:topics/business/business-model.md"
+    },
+    {
+      "id": "entity:olo::earns_from::entity:subscription-revenue::topics/business/business-model.md",
+      "from": "entity:olo",
+      "type": "earns_from",
+      "to": "entity:subscription-revenue",
+      "source": "topics/business/business-model.md",
+      "document": "doc:topics/business/business-model.md"
+    },
+    {
+      "id": "entity:olo::has::entity:high-confidence-claims::topics/reports/confidence-map.md",
+      "from": "entity:olo",
+      "type": "has",
+      "to": "entity:high-confidence-claims",
+      "source": "topics/reports/confidence-map.md",
+      "document": "doc:topics/reports/confidence-map.md"
+    },
+    {
+      "id": "entity:olo::has::entity:medium-confidence-claims::topics/reports/confidence-map.md",
+      "from": "entity:olo",
+      "type": "has",
+      "to": "entity:medium-confidence-claims",
+      "source": "topics/reports/confidence-map.md",
+      "document": "doc:topics/reports/confidence-map.md"
+    },
+    {
+      "id": "entity:olo::has::entity:unknowns::topics/reports/confidence-map.md",
+      "from": "entity:olo",
+      "type": "has",
+      "to": "entity:unknowns",
+      "source": "topics/reports/confidence-map.md",
+      "document": "doc:topics/reports/confidence-map.md"
+    },
+    {
+      "id": "entity:olo::may_serve::entity:franchise-operators::topics/customers/customer-map.md",
+      "from": "entity:olo",
+      "type": "may_serve",
+      "to": "entity:franchise-operators",
+      "source": "topics/customers/customer-map.md",
+      "document": "doc:topics/customers/customer-map.md"
+    },
+    {
+      "id": "entity:olo::offers::entity:digital-ordering::topics/brief.md",
+      "from": "entity:olo",
+      "type": "offers",
+      "to": "entity:digital-ordering",
+      "source": "topics/brief.md",
+      "document": "doc:topics/brief.md"
+    },
+    {
+      "id": "entity:olo::offers::entity:digital-ordering::topics/business/overview.md",
+      "from": "entity:olo",
+      "type": "offers",
+      "to": "entity:digital-ordering",
+      "source": "topics/business/overview.md",
+      "document": "doc:topics/business/overview.md"
+    },
+    {
+      "id": "entity:olo::offers::entity:guest-engagement::topics/business/overview.md",
+      "from": "entity:olo",
+      "type": "offers",
+      "to": "entity:guest-engagement",
+      "source": "topics/business/overview.md",
+      "document": "doc:topics/business/overview.md"
+    },
+    {
+      "id": "entity:olo::offers::entity:olo-dispatch::topics/brief.md",
+      "from": "entity:olo",
+      "type": "offers",
+      "to": "entity:olo-dispatch",
+      "source": "topics/brief.md",
+      "document": "doc:topics/brief.md"
+    },
+    {
+      "id": "entity:olo::offers::entity:olo-dispatch::topics/products/dispatch.md",
+      "from": "entity:olo",
+      "type": "offers",
+      "to": "entity:olo-dispatch",
+      "source": "topics/products/dispatch.md",
+      "document": "doc:topics/products/dispatch.md"
+    },
+    {
+      "id": "entity:olo::offers::entity:olo-engage::topics/brief.md",
+      "from": "entity:olo",
+      "type": "offers",
+      "to": "entity:olo-engage",
+      "source": "topics/brief.md",
+      "document": "doc:topics/brief.md"
+    },
+    {
+      "id": "entity:olo::offers::entity:olo-engage::topics/products/engage.md",
+      "from": "entity:olo",
+      "type": "offers",
+      "to": "entity:olo-engage",
+      "source": "topics/products/engage.md",
+      "document": "doc:topics/products/engage.md"
+    },
+    {
+      "id": "entity:olo::offers::entity:olo-ordering::topics/products/ordering.md",
+      "from": "entity:olo",
+      "type": "offers",
+      "to": "entity:olo-ordering",
+      "source": "topics/products/ordering.md",
+      "document": "doc:topics/products/ordering.md"
+    },
+    {
+      "id": "entity:olo::offers::entity:olo-pay::topics/brief.md",
+      "from": "entity:olo",
+      "type": "offers",
+      "to": "entity:olo-pay",
+      "source": "topics/brief.md",
+      "document": "doc:topics/brief.md"
+    },
+    {
+      "id": "entity:olo::offers::entity:olo-pay::topics/products/payments.md",
+      "from": "entity:olo",
+      "type": "offers",
+      "to": "entity:olo-pay",
+      "source": "topics/products/payments.md",
+      "document": "doc:topics/products/payments.md"
+    },
+    {
+      "id": "entity:olo::offers::entity:payments::topics/business/overview.md",
+      "from": "entity:olo",
+      "type": "offers",
+      "to": "entity:payments",
+      "source": "topics/business/overview.md",
+      "document": "doc:topics/business/overview.md"
+    },
+    {
+      "id": "entity:olo::operates_as::entity:open-saas-platform::topics/business/overview.md",
+      "from": "entity:olo",
+      "type": "operates_as",
+      "to": "entity:open-saas-platform",
+      "source": "topics/business/overview.md",
+      "document": "doc:topics/business/overview.md"
+    },
+    {
+      "id": "entity:olo::serves::entity:enterprise-restaurant-brands::topics/customers/customer-map.md",
+      "from": "entity:olo",
+      "type": "serves",
+      "to": "entity:enterprise-restaurant-brands",
+      "source": "topics/customers/customer-map.md",
+      "document": "doc:topics/customers/customer-map.md"
+    },
+    {
+      "id": "entity:olo::serves::entity:restaurant-brands::topics/business/overview.md",
+      "from": "entity:olo",
+      "type": "serves",
+      "to": "entity:restaurant-brands",
+      "source": "topics/business/overview.md",
+      "document": "doc:topics/business/overview.md"
+    },
+    {
+      "id": "entity:operations-teams::use::entity:olo::topics/customers/customer-map.md",
+      "from": "entity:operations-teams",
+      "type": "use",
+      "to": "entity:olo",
+      "source": "topics/customers/customer-map.md",
+      "document": "doc:topics/customers/customer-map.md"
+    },
+    {
+      "id": "entity:payment-economics::affects::entity:olo::topics/external-forces/dependencies.md",
+      "from": "entity:payment-economics",
+      "type": "affects",
+      "to": "entity:olo",
+      "source": "topics/external-forces/dependencies.md",
+      "document": "doc:topics/external-forces/dependencies.md"
+    },
+    {
+      "id": "entity:payment-fraud-exposure::threatens::entity:olo::topics/business/risks.md",
+      "from": "entity:payment-fraud-exposure",
+      "type": "threatens",
+      "to": "entity:olo",
+      "source": "topics/business/risks.md",
+      "document": "doc:topics/business/risks.md"
+    },
+    {
+      "id": "entity:pos-integrations::affects::entity:olo::topics/external-forces/dependencies.md",
+      "from": "entity:pos-integrations",
+      "type": "affects",
+      "to": "entity:olo",
+      "source": "topics/external-forces/dependencies.md",
+      "document": "doc:topics/external-forces/dependencies.md"
+    },
+    {
+      "id": "entity:private-equity-ownership::affects::entity:olo::topics/external-forces/dependencies.md",
+      "from": "entity:private-equity-ownership",
+      "type": "affects",
+      "to": "entity:olo",
+      "source": "topics/external-forces/dependencies.md",
+      "document": "doc:topics/external-forces/dependencies.md"
+    },
+    {
+      "id": "entity:privatization::affects::entity:olo::topics/business/timeline.md",
+      "from": "entity:privatization",
+      "type": "affects",
+      "to": "entity:olo",
+      "source": "topics/business/timeline.md",
+      "document": "doc:topics/business/timeline.md"
+    },
+    {
+      "id": "entity:restaurant-digital-order-volume::affects::entity:olo::topics/external-forces/dependencies.md",
+      "from": "entity:restaurant-digital-order-volume",
+      "type": "affects",
+      "to": "entity:olo",
+      "source": "topics/external-forces/dependencies.md",
+      "document": "doc:topics/external-forces/dependencies.md"
+    },
+    {
+      "id": "entity:restaurant-guests::interact_with::entity:olo::topics/customers/customer-map.md",
+      "from": "entity:restaurant-guests",
+      "type": "interact_with",
+      "to": "entity:olo",
+      "source": "topics/customers/customer-map.md",
+      "document": "doc:topics/customers/customer-map.md"
+    },
+    {
+      "id": "entity:restaurant-it-budgets::affects::entity:olo::topics/external-forces/dependencies.md",
+      "from": "entity:restaurant-it-budgets",
+      "type": "affects",
+      "to": "entity:olo",
+      "source": "topics/external-forces/dependencies.md",
+      "document": "doc:topics/external-forces/dependencies.md"
+    },
+    {
+      "id": "entity:thoma-bravo-acquisition::affects::entity:olo::topics/business/timeline.md",
+      "from": "entity:thoma-bravo-acquisition",
+      "type": "affects",
+      "to": "entity:olo",
+      "source": "topics/business/timeline.md",
+      "document": "doc:topics/business/timeline.md"
+    },
+    {
+      "id": "entity:thoma-bravo::acquired::entity:olo::topics/brief.md",
+      "from": "entity:thoma-bravo",
+      "type": "acquired",
+      "to": "entity:olo",
+      "source": "topics/brief.md",
+      "document": "doc:topics/brief.md"
+    }
+  ],
+  "warnings": []
+}

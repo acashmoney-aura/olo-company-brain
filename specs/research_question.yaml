@@ -1,0 +1,9 @@
+question: How does Olo's public-facing product stack, customer model, revenue logic, and ecosystem dependency map fit together, and what remains unknowable after privatization?
+required_sources:
+  - olo-homepage
+  - olo-ordering
+  - olo-pay
+  - olo-dispatch
+  - olo-engage
+  - thoma-bravo-acquisition
+output: research_plan/current_plan.md
