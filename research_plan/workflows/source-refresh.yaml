@@ -1,0 +1,30 @@
+id: source-refresh
+description: Check source snapshots, identify affected docs, regenerate markdown notes, and rebuild retrieval artifacts.
+schedule: 0 8 * * 1
+steps:
+- id: validate_dependencies
+  kind: command
+  run: krail --local sources validate
+- id: check_sources
+  kind: command
+  run: krail --local sources check
+- id: changed_sources
+  kind: command
+  run: krail --local sources changed
+- id: affected_docs
+  kind: command
+  run: krail --local sources affected
+- id: regenerate_notes
+  kind: agent
+  role: research
+  runner: gemini_cli
+  prompt: Review changed sources and affected Olo company-brain documents. Update or draft markdown notes with evidence-backed changes only. Refresh claims, confidence, open questions, and stale areas. Prefer editing existing synthesis docs over creating noisy duplicates.
+- id: rebuild_graph
+  kind: command
+  run: krail --local graph build
+- id: refresh_search_index
+  kind: command
+  run: krail --local vector build
+- id: smoke_test_search
+  kind: command
+  run: krail --local search "Olo ordering payments guest engagement" --limit 5

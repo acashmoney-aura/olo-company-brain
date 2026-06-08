@@ -1,0 +1,13 @@
+id: publish-refresh
+description: Rebuild the Olo company brain and commit local changes after refresh.
+schedule: 0 9 * * 1
+steps:
+- id: refresh_content
+  kind: command
+  run: krail --local workflow execute source-refresh
+- id: check_git_status
+  kind: command
+  run: git status --short
+- id: commit_changes
+  kind: command
+  run: git add . && git commit -m "Refresh Olo company brain from source updates" || true

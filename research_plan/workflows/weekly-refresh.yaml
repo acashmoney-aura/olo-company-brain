@@ -1,0 +1,20 @@
+id: weekly-refresh
+description: Review new captures, expand synthesis markdown, refresh retrieval artifacts, and record blockers.
+schedule: 0 8 * * 1
+steps:
+- id: doctor
+  kind: command
+  run: krail --local doctor
+- id: research_triage
+  kind: agent
+  role: research
+  runner: gemini_cli
+  prompt: Review new captures and existing Olo company-brain notes. Expand product, market, risk, and business-model markdown where evidence supports it. Record unsupported ideas as open questions instead of claims.
+- id: refresh_retrieval
+  kind: command
+  run: krail --local graph build && krail --local vector build
+- id: audit
+  kind: agent
+  role: doctor
+  runner: gemini_cli
+  prompt: Audit the refreshed knowledge base, identify stale claims, and write unresolved blockers or follow-up work under research_plan/.
