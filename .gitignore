@@ -2,3 +2,6 @@ __pycache__/
 *.pyc
 .DS_Store
 .rail/workspaces/
+research_plan/sessions/
+research_plan/tasks/
+research_plan/work_orders/

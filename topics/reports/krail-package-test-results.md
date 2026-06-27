@@ -1,7 +1,7 @@
 ---
 title: "KRAIL package test results on Olo company brain"
 kind: report
-updated: "2026-06-08"
+updated: "2026-06-27"
 topics:
   - package-testing
   - krail
@@ -43,6 +43,11 @@ relations:
 - `krail capture --url ...`
 - `krail search ...`
 - `krail graph build` after patching captured datetime strings in inbox frontmatter
+
+## 2026-06-27 verification update
+- Re-checked the repo with KRAIL 0.2.2.
+- `krail --local doctor` now passes for this repo on the upgraded package.
+- Remaining doctor output is warning-only: untriaged inbox items and transient runtime state directories.
 
 ## Failures found
 
